@@ -1,0 +1,18 @@
+{
+  "name": "resources",
+  "version": "1.0.0",
+  "description": "External dependencies",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mahendra",
+  "license": "ISC",
+  "devDependencies": {
+    "connect": "^3.1.x",
+    "serve-static": "^1.4.x"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}
