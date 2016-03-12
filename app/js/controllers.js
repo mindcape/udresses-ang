@@ -15,7 +15,6 @@ uDressesControllers.controller('kurtisController', ['$scope', 'loadService',
 
     $scope.mutants = loadService.query();
 
-
   }]);
 
 uDressesControllers.controller('NavigationController', ['$scope' , function ($scope) {
@@ -24,4 +23,6 @@ uDressesControllers.controller('NavigationController', ['$scope' , function ($sc
         name: "kurtis",
         link: "kurtis",
     }];
+
+    
 }])

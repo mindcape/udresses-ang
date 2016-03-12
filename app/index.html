@@ -11,7 +11,7 @@
 </head>
 <body>
 
-  <div ng-controller="NavigationController">
+  <div ng-controller="NavigationController" class="container">
       <nav class="navbar navbar-default" role="navigation">
           <div class="navbar-header">
               <button type="button" class="navbar-toggle" ng-init="navCollapsed = true"
@@ -61,7 +61,8 @@
       </nav>
   </div>
 
-  <div ui-view></div>
+
+  <div class="container" ui-view></div>
 
 
 </body>

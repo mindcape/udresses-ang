@@ -1,7 +1,7 @@
 /* app css stylesheet */
 
 body {
-  padding-top: 20px;
+  padding-top: 1px;
 }
 
 
@@ -96,4 +96,33 @@ ul.specs dt {
 
 h1 {
   border-bottom: 1px solid gray;
+}
+
+.actor-tile {
+  border: 1px solid lightgray;
+  padding: 5px;
+  border-radius: 3px;
+  box-shadow: 0 0 4px lightgray;
+  margin: 10px;
+  max-width: 260px;
+  float: left;
+  overflow: hidden;
+}
+
+.actor-tile img {
+  margin-top: 5px;
+  height: 240px;
+  width: 240px;
+  overflow: hidden;
+  box-shadow: 2px 2px 2px #FFC0CB;
+  float: left
+}
+
+.actor-tile button {
+  width: 100%;
+}
+
+.actor-tile img:hover {
+  width: 400px;
+  height: 400px;
 }
