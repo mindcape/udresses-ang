@@ -99,14 +99,12 @@ h1 {
 }
 
 .actor-tile {
-  border: 1px solid lightgray;
   padding: 5px;
-  border-radius: 3px;
-  box-shadow: 0 0 4px lightgray;
   margin: 10px;
-  max-width: 260px;
+  max-width: 360px;
   float: left;
   overflow: hidden;
+  text-align: center;
 }
 
 .actor-tile img {
@@ -115,7 +113,6 @@ h1 {
   width: 240px;
   overflow: hidden;
   box-shadow: 2px 2px 2px #FFC0CB;
-  float: left
 }
 
 .actor-tile button {
@@ -123,6 +120,30 @@ h1 {
 }
 
 .actor-tile img:hover {
+  width: 400px;
+  height: 400px;
+}
+
+.pic {
+  border: 10px solid #fff;
+  float: left;
+  height: 300px;
+  width: 300px;
+  margin: 20px;
+  overflow: hidden;
+}
+
+.grow img {
+  height: 300px;
+  width: 300px;
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+
+.grow img:hover {
   width: 400px;
   height: 400px;
 }

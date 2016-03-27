@@ -20,7 +20,7 @@ uDressesDirectives.directive('actorTile', ['$uibModal', function ($uibModal) {
           });
         };
         elem.find('img').on('click', function () {
-          window.open(scope.actor.image);
+          window.location.href = '#/details/'+scope.actor.id;
         });
       }
     };
