@@ -1,14 +1,18 @@
 <h1>Kurtis</h1>
 <hr/>
 <p>Designer Kurtis Collection</p>
-<div class="row product-detail">
+<div class="row product-detail" >
     <div class="col-sm-5 img-col">
       <div class="images-wrapper loaded">
         <div id="image-main">
           <ul class="bxslider">
-
-            <li><div class="image-table"><div class="image-cell"><img src="//nebula.wsimg.com/obj/NUMxNzBCRjFENEFCMUEzMDFGMTI6NWY3Y2NiY2I0MmEzNWE5NGMwZWMzZGM1NGNhOWMzZTE6Ojo6OjA="></div></div></li>
-
+            <li>
+              <div class="image-table">
+                <div class="image-cell">
+                  <img src="//nebula.wsimg.com/obj/NUMxNzBCRjFENEFCMUEzMDFGMTI6NWY3Y2NiY2I0MmEzNWE5NGMwZWMzZGM1NGNhOWMzZTE6Ojo6OjA=">
+                </div>
+              </div>
+            </li>
           </ul>
           <div class="overlay" data-toggle="modal" data-target="#product-modal"></div>
           <div class="control-wrapper prev-wrapper"><div class="bx-prev"></div></div>
@@ -18,10 +22,10 @@
     </div>
     <div class="col-sm-7">
       <h1 class="single-product-title" id="product-name">
-        KURTI423 DENIM KURTIS 6 pcs @ 560 Rs
+        {{details.name}}
       </h1>
-      <div class="single-product-price" id="product-price" data-price="₹3,360.00">
-        <span id="regular-price"><span class="rupee">₹</span>3,360.00</span>
+      <div class="single-product-price">
+        <span id="regular-price"><span class="rupee">$</span>{{details.price}}</span>
         <span id="sale-price"></span>
       </div>
       <form id="product-form" class="form-vertical">
