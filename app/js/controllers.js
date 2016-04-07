@@ -2,7 +2,7 @@
 
 /* Controllers */
 
-var uDressesControllers = angular.module('uDressesControllers', ['ui.bootstrap']);
+var uDressesControllers = angular.module('uDressesControllers', ['ui.bootstrap','angular-flexslider']);
 
 // uDressesControllers.controller('PhoneListCtrl', ['$scope', 'Phone',
 //   function($scope, Phone) {
@@ -35,4 +35,13 @@ uDressesControllers.controller('NavigationController', ['$scope' , function ($sc
         name: "kurtis",
         link: "kurtis",
     }];
+}]);
+
+uDressesControllers.controller('BasicSliderController',['$scope',function($scope){
+  $scope.slides = [
+      'http://flexslider.woothemes.com/images/kitchen_adventurer_cheesecake_brownie.jpg',
+      'http://flexslider.woothemes.com/images/kitchen_adventurer_lemon.jpg',
+      'http://flexslider.woothemes.com/images/kitchen_adventurer_donut.jpg',
+      'http://flexslider.woothemes.com/images/kitchen_adventurer_caramel.jpg'
+    ];
 }]);

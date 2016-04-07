@@ -2,37 +2,11 @@
 <h1>Welcome to Udaya Dresses</h1>
 <hr/>
 <h3>How to use ui-navbar to load different partials based on routing</h3>
-<div id="main" role="main">
-      <section class="slider">
 
-                 <div class="flexslider">
-                   <ul class="slides">
-           <li>
-             <img src="img/kitchen_adventurer_cheesecake_brownie.jpg" />
-           </li>
-           <li>
-             <img src="img/kitchen_adventurer_lemon.jpg" />
-           </li>
-           <li>
-             <img src="img/kitchen_adventurer_donut.jpg" />
-           </li>
-           <li>
-             <img src="img/kitchen_adventurer_caramel.jpg" />
-           </li>
-         </ul>
-                 </div>
-                 </section
-               </div>
-
-
-                 <script type="text/javascript">
-
-                     $(window).load(function(){
-                       $('.flexslider').flexslider({
-                         animation: "slide",
-                         start: function(slider){
-                           $('body').removeClass('loading');
-                         }
-                       });
-                     });
-                   </script>
+<div ng-controller="BasicSliderController">
+<flex-slider flex-slide="s in slides" animation="slide">
+		<li>
+			<img ng-src="{{s}}">
+		</li>
+	</flex-slider>
+</div>
