@@ -39,9 +39,8 @@ uDressesControllers.controller('NavigationController', ['$scope' , function ($sc
 
 uDressesControllers.controller('BasicSliderController',['$scope',function($scope){
   $scope.slides = [
-      'http://flexslider.woothemes.com/images/kitchen_adventurer_cheesecake_brownie.jpg',
-      'http://flexslider.woothemes.com/images/kitchen_adventurer_lemon.jpg',
-      'http://flexslider.woothemes.com/images/kitchen_adventurer_donut.jpg',
-      'http://flexslider.woothemes.com/images/kitchen_adventurer_caramel.jpg'
+      'https://1.bp.blogspot.com/-9zJPBaHKUJY/Vt_cOo9pqTI/AAAAAAAA1Hw/o7-j98hEwfY/s1600/7226.jpg',
+      'https://2.bp.blogspot.com/-iCUBNpJpR-A/Vs313-6dsjI/AAAAAAAAz6I/dW96I-zFOeM/s1600/M3%2B%25289%2529.jpg',
+      'https://2.bp.blogspot.com/-ZD9mYaG4Vqo/Vt1vVnVt-aI/AAAAAAAA0u4/NskIEfkLOi4/s1600/26.jpg'
     ];
 }]);
