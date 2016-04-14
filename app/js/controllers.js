@@ -10,9 +10,18 @@ var uDressesControllers = angular.module('uDressesControllers', ['ui.bootstrap',
 //     $scope.orderProp = 'age';
 //   }]);
 
-uDressesControllers.controller('kurtisController', ['$scope', 'loadService','$uibModal',
-  function($scope,  loadService, $uibModal) {
+uDressesControllers.controller('kurtisController', ['$scope','$http', '$filter', 'loadService','$uibModal',
+  function($scope, $http, $filter, loadService, $uibModal) {
     $scope.mutants = loadService.query();
+    var log = [];
+    $http.jsonp("https://api.flickr.com/services/rest/?method=flickr.photosets.getPhotos&user_id=140071727%40N03&photoset_id=72157664639994663&api_key=3d9a471e55f44c4d04503ae04cd304fe&format=json&jsoncallback=JSON_CALLBACK")
+      .success(function(data) {
+        var photos = data.photoset.photo;
+        angular.forEach($scope.mutants,function(dress){
+            var photo = $filter('filter')(photos,{title:dress.flikid})[0];
+            dress.image = "https://farm"+photo.farm+".staticflickr.com/"+photo.server+"/"+photo.id+"_"+photo.secret+"_b.jpg";
+        })
+    });
     $scope.quickView = function(){
       $uibModal.open({
         templateUrl: "https://1.bp.blogspot.com/-9zJPBaHKUJY/Vt_cOo9pqTI/AAAAAAAA1Hw/o7-j98hEwfY/s1600/7226.jpg"
@@ -21,12 +30,16 @@ uDressesControllers.controller('kurtisController', ['$scope', 'loadService','$ui
 }]);
 
 
-uDressesControllers.controller('DetailsController', ['$scope', 'loadService','detailsService','$uibModal','$stateParams',
-  function($scope,  loadService, detailsService, $uibModal, $stateParams) {
+uDressesControllers.controller('DetailsController', ['$scope','$http', '$filter','loadService','detailsService','$uibModal','$stateParams',
+  function($scope, $http, $filter,loadService, detailsService, $uibModal, $stateParams) {
     console.log($stateParams.id);
     detailsService.getItem($stateParams.id).then(function(item) {
-        console.log(item);
-          $scope.details=item;
+        $scope.details=item;
+        $http.jsonp("https://api.flickr.com/services/rest/?method=flickr.photosets.getPhotos&user_id=140071727%40N03&photoset_id=72157664639994663&api_key=3d9a471e55f44c4d04503ae04cd304fe&format=json&jsoncallback=JSON_CALLBACK")
+        .success(function(data) {
+          var photo = $filter('filter')(data.photoset.photo,{title:$stateParams.id})[0];
+          $scope.details.image = "https://farm"+photo.farm+".staticflickr.com/"+photo.server+"/"+photo.id+"_"+photo.secret+"_z.jpg";
+        })
     });
 }]);
 

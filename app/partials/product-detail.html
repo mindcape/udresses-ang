@@ -1,4 +1,10 @@
-<div class="row col-sm-12"><a onclick="history.back()">Back</a></div>
+<ul class="row breadcrumb">
+    <li><a href="#">Home</a></li>
+    <li><a href="#/kurtis">Kurtis</a></li>
+    <li class="active">{{details.id}}</li>
+</ul>
+
+
 <hr/>
 <h3>Designer Kurtis Collection</h3>
 <div class="row page-products" >
@@ -7,7 +13,7 @@
       <div id="image-main">
         <div class="image-table">
           <div class="image-cell">
-            <img src="{{details.image}}">
+            <img ng-src="{{details.image}}">
           </div>
         </div>
       </div>

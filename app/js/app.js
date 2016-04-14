@@ -37,7 +37,7 @@ var uDressesApp = angular.module('uDresses', [
         })
         .state('details/:id',{
           url:"/details/:id",
-          "templateUrl":"partials/phone-detail.html",
+          "templateUrl":"partials/product-detail.html",
           controller : 'DetailsController'
         });
 })
