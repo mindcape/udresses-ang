@@ -2,17 +2,30 @@
 <html lang="en" ng-app="uDresses">
 <head>
   <meta charset="utf-8">
-  <title>Udaya Dresses</title>
+  <title>Udaya Fashions</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <link rel="icon" type="img" href="favicon.ico" />
   <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="bower_components/flexslider/flexslider.css">
-   <link rel="stylesheet" href="bower_components/ui-navbar/release/css/ui-navbar.min.css">
+  <link rel="stylesheet" href="bower_components/flexslider/flexslider.css">
+  <link rel="stylesheet" href="bower_components/ui-navbar/release/css/ui-navbar.min.css">
+  <link rel="stylesheet" href="bower_components/components-font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/app.css">
   <link rel="stylesheet" href="css/animations.css">
 </head>
 <body>
+  <div class="topbar-v3">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 text-right">
+                Get in touch with us:
+                <i class="fa fa-phone" style="font-size: 20px;"></i> +1(804)592-6824
+                <i class="fa fa-whatsapp" style="font-size: 20px;"></i> +1(612)524-7291
+            </div>
+        </div>
+    </div><!--/container-->
+  </div>
   <header>
-  <div ng-controller="NavigationController" class="container">
+    <div ng-controller="NavigationController" class="container">
       <nav class="navbar navbar-custom" role="navigation">
           <div class="navbar-header">
               <button type="button" class="navbar-toggle" ng-init="navCollapsed = true"
@@ -44,26 +57,21 @@
                       <tree tree='tree'></tree>
                   </li>
               </ul> -->
-              <ul class="nav navbar-nav">
 
-              </ul>
               <ul class="nav navbar-nav navbar-right">
                   <li >
-                      <a href="#/kurtis">
+                      <a href="#/products/kurti">
                           Kurtis
                           <!-- <b class='caret'></b> -->
                       </a
                   </li>
                   <li >
-                    <a href="#/dresses">
+                    <a href="#/products/dress">
                         Dresses
                         <!-- <span class='caret'></span> -->
                     </a>
                   </li>
               </ul>
-              <div class="col-sm-7 col-md-7 text-center">
-                <p>To order please contact us whatsapp or call +1 (612) 524 7291</p>
-              </div>
           </div>
           <!-- /.navbar-collapse -->
       </nav>
@@ -80,12 +88,12 @@
 				<div class="widget">
 					<h5 class="widgetheading">Get in touch with us</h5>
 					<address>
-					<strong>Udaya Dresses</strong><br>
+					<strong>Udaya Fashions</strong><br>
 					 13201 Autumn Chase Pl<br>
 					 Henrico VA 23233</address>
 					<p>
 						<i class="icon-phone"></i> (612) 524-7291 - (612) 568-3523 <br>
-						<i class="icon-envelope-alt"></i> udaya@udayadresses.com
+						<i class="icon-envelope-alt"></i> udaya@udayafashions.com
 					</p>
 				</div>
 			</div>
@@ -129,7 +137,7 @@
 				<div class="col-lg-12">
 					<div class="copyright">
 						<p>
-							<span>&copy; Udaya Dresses 2016 </span>
+							<span>&copy; Udaya Fashions 2016 </span>
 						</p>
 					</div>
 				</div>

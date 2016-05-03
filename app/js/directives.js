@@ -9,7 +9,7 @@ uDressesDirectives.directive('actorTile', ['$uibModal', function ($uibModal) {
       scope: {
         actor: '='
       },
-      replace: true,
+      replace: false,
       templateUrl: 'partials/dress-template.html',
       link: function (scope, elem, attrs) {
         scope.hi = function () {

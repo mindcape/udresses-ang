@@ -1,12 +1,13 @@
+<div ng-controller="kurtisController">
 <ul class="row breadcrumb">
     <li><a href="#">Home</a></li>
-    <li class="active">Kurtis</li>
+    <li class="active">{{productType}}</li>
 </ul>
 
 <hr/>
-<h3>Designer Kurtis Collection</h3>
-<div ng-controller="kurtisController">
-  <div ng-repeat="m in mutants" >
-    <div actor-tile actor="m"></div>
+<h3>{{typeHeaderText}}</h3>
+
+  <div ng-repeat="p in products" >
+    <div actor-tile actor="p"></div>
   </div>
 </div>

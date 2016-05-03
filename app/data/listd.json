@@ -1,0 +1,28 @@
+[{
+	"id" : 1,
+	"name": "Purple Fancy Cotton dress",
+	"actor": "dress",
+	"price" : 30.99,
+	"desc" : "Standard stitched blue cotton dress",
+	"flikid" : "b55",
+	"Size" : "XL",
+	"Order" : "Please call or whatsapp to order. We accept only paypal payments at the moment."
+},{
+	"id" : 2,
+	"name": "Purple Fancy Cotton dress",
+	"actor": "dress",
+	"price" : 29.99,
+	"desc" : "Standard stitched blue cotton dress",
+	"flikid" : "b54",
+	"Size" : "XL",
+	"Order" : "Please call or whatsapp to order. We accept only paypal payments at the moment."
+},{
+	"id" : 3,
+	"name": "Purple Fancy Cotton dress",
+	"actor": "dress",
+	"price" : 28.99,
+	"desc" : "Standard stitched blue cotton dress",
+	"flikid" : "b53",
+	"Size" : "XL",
+	"Order" : "Please call or whatsapp to order. We accept only paypal payments at the moment."
+}]

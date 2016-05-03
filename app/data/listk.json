@@ -1,0 +1,200 @@
+[{
+	"id" : 1,
+	"name": "Purple Fancy Cotton Kurti",
+	"actor": "kurti",
+	"price" : 14.99,
+	"desc" : "Designer Cotton Short Kurti",
+	"flikid" : "4MK",
+	"Size" : "XXL",
+	"Order" : "Please call or whatsapp to order. We accept only paypal payments at the moment."
+},
+{
+	"id" : 2,
+	"name": "Beautifull Green and Black Cotton Kurti",
+	"actor": "kurti",
+	"price" : 14.99,
+	"desc" : "Designer Cotton Short Kurti",
+	"flikid" : "6MK",
+	"Size" : "XXL",
+	"Order" : "Please call or whatsapp to order. We accept only paypal payments at the moment."
+},
+{
+	"id" : 3,
+	"name": "Gorgeous blue cotton kurti",
+	"actor": "kurti",
+	"price" : 13.99,
+	"desc" : "Designer Cotton Short Kurti",
+	"flikid" : "7MK",
+	"Size" : "XXL",
+	"Order" : "Please call or whatsapp to order. We accept only paypal payments at the moment."
+},
+{
+	"id" : 4,
+	"name": "Red embroidery Georgette Kurti",
+	"actor": "kurti",
+	"price" : 28.99,
+	"desc" : "EMBROIDERY GEORGETTE KURTI WITH SANTOON INNER",
+	"flikid" : "52001_a",
+	"Size" : "XL",
+	"Order" : "Please call or whatsapp to order. We accept only paypal payments at the moment."
+},
+{
+	"id" : 5,
+	"name": "Beautiful Georgette Kurti",
+	"actor": "kurti",
+	"price" : 27.99,
+	"desc" : "EMBROIDERY GEORGETTE KURTI WITH SANTOON INNER",
+	"flikid" : "52002_c",
+	"Size" : "XL",
+	"Order" : "Please call or whatsapp to order. We accept only paypal payments."
+},
+{
+	"id" : 6,
+	"name": "Black Embroidery Georgette Kurti",
+	"actor": "kurti",
+	"price" : 25.99,
+	"desc" : "EMBROIDERY GEORGETTE KURTI WITH SANTOON INNER",
+	"flikid" : "52003_a",
+	"Size" : "XL",
+	"Order" : "Please call or whatsapp to order. We accept only paypal payments."
+},
+{
+		"id" : 7,
+	"name": "Fancy Cotton Kurti in White",
+	"actor": "kurti",
+	"price" : 13.99,
+	"desc" : "COTTON CAMBRIC LAWN FABRIC KURTI",
+	"flikid" : "3MK",
+	"Size" : "XL",
+	"Order" : "Please call or whatsapp to order. We accept only paypal payments."
+},
+{
+	"id" : 8,
+	"name": "Gorgeous kora Silk kurti",
+	"actor": "kurti",
+	"price" : 19.99,
+	"desc" : "Raw silk with inner",
+	"flikid" : "V1",
+	"Size" : "XL",
+	"Order" : "Please call or whatsapp to order. We accept only paypal payments."
+},
+{
+	"id" : 9,
+	"name": "Nice design kora Silk kurti",
+	"actor": "kurti",
+	"price" : 18.99,
+	"desc" : "Raw silk with inner",
+	"flikid" : "V6",
+	"Size" : "XL",
+	"Order" : "Please call or whatsapp to order. We accept only paypal payments."
+},
+{
+	"id" : 10,
+	"name": "Maroon design kora Silk kurti",
+	"actor": "kurti",
+	"price" : 18.99,
+	"desc" : "Raw silk with inner",
+	"flikid" : "V5",
+	"Size" : "XL",
+	"Order" : "Please call or whatsapp to order. We accept only paypal payments."
+},
+{
+	"id" : 11,
+	"name": "Full design kora Silk kurti",
+	"actor": "kurti",
+	"price" : 19.99,
+	"desc" : "Raw silk with inner",
+	"flikid" : "V4",
+	"Size" : "XL",
+	"Order" : "Please call or whatsapp to order. We accept only paypal payments."
+},
+{
+	"id" : 12,
+	"name": "Latest design kora Silk kurti",
+	"actor": "kurti",
+	"price" : 19.99,
+	"desc" : "Raw kora silk with inner",
+	"flikid" : "V3",
+	"Size" : "XL",
+	"Order" : "Please call or whatsapp to order. We accept only paypal payments."
+},
+{
+	"id" : 13,
+	"name": "Gorgeous white and green design kora Silk kurti",
+	"actor": "kurti",
+	"price" : 17.99,
+	"desc" : "Raw kora silk with inner",
+	"flikid" : "V7",
+	"Size" : "XL",
+	"Order" : "Please call or whatsapp to order. We accept only paypal payments."
+},
+{
+	"id" : 14,
+	"name": "Front and back design 60*60 cotton kurti",
+	"actor": "kurti",
+	"price" : 21.99,
+	"desc" : "Jackard Cotton 60*60 Cotton Kurti",
+	"flikid" : "a3",
+	"Size" : "XL",
+	"Order" : "Please call or whatsapp to order. We accept only paypal payments."
+},
+{
+	"id" : 15,
+	"name": "Beautiful design 60*60 cotton kurti",
+	"actor": "kurti",
+	"price" : 21.99,
+	"desc" : "Jackard Cotton 60*60 Cotton Kurti",
+	"flikid" : "a2",
+	"Size" : "XL",
+	"Order" : "Please call or whatsapp to order. We accept only paypal payments."
+},
+{
+	"id" : 16,
+	"name": "Brown color nice design 60*60 cotton kurti",
+	"actor": "kurti",
+	"price" : 19.99,
+	"desc" : "Jackard Cotton 60*60 Cotton Kurti",
+	"flikid" : "a1",
+	"Size" : "XL",
+	"Order" : "Please call or whatsapp to order. We accept only paypal payments."
+},
+{
+	"id" : 17,
+	"name": "Front and back design 60*60 cotton kurti",
+	"actor": "kurti",
+	"price" : 19.99,
+	"desc" : "Jackard Cotton 60*60 Cotton Kurti",
+	"flikid" : "a7",
+	"Size" : "XL",
+	"Order" : "Please call or whatsapp to order. We accept only paypal payments."
+},
+{
+	"id" : 18,
+	"name": "Gorgeous yellow color 60*60 cotton kurti",
+	"actor": "kurti",
+	"price" : 18.99,
+	"desc" : "Jackard Cotton 60*60 Cotton Kurti",
+	"flikid" : "a5",
+	"Size" : "XL",
+	"Order" : "Please call or whatsapp to order. We accept only paypal payments."
+},
+{
+	"id" : 19,
+	"name": "Wonderfull design 60*60 cotton kurti",
+	"actor": "kurti",
+	"price" : 19.99,
+	"desc" : "Jackard Cotton 60*60 Cotton Kurti",
+	"flikid" : "a6",
+	"Size" : "XL",
+	"Order" : "Please call or whatsapp to order. We accept only paypal payments."
+},
+{
+	"id" : 20,
+	"name": "Front and back design 60*60 cotton kurti",
+	"actor": "kurti",
+	"price" : 20.99,
+	"desc" : "Jackard Cotton 60*60 Cotton Kurti",
+	"flikid" : "a4",
+	"Size" : "XL",
+	"Order" : "Please call or whatsapp to order. We accept only paypal payments."
+}]

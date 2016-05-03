@@ -1,6 +1,6 @@
 <ul class="row breadcrumb">
     <li><a href="#">Home</a></li>
-    <li><a href="#/kurtis">Kurtis</a></li>
+    <li><a href="#/products/{{details.actor}}">{{details.type}}</a></li>
     <li class="active">{{details.id}}</li>
 </ul>
 
@@ -8,7 +8,7 @@
 <hr/>
 <h3>Designer Kurtis Collection</h3>
 <div class="row page-products" >
-    <div class="col-sm-5 img-col">
+    <div class="col-sm-7 img-col">
       <div class="images-wrapper loaded">
       <div id="image-main">
         <div class="image-table">
@@ -19,7 +19,7 @@
       </div>
       </div>
     </div>
-    <div class="col-sm-7">
+    <div class="col-sm-5">
       <h1>
         {{details.name}}
       </h1>
@@ -28,6 +28,15 @@
       </div>
       <div class="single-product-description" id="product-description">
           {{details.desc}}
+      </div>
+      <div class="single-product-description" id="product-description">
+          Sizes available : {{details.Size}}
+      </div>
+      <div class="single-product-description" id="product-description">
+          How to order : {{details.Order}}
+      </div>
+      <div class="single-product-description" id="product-description">
+          We can attach hands for free and other alteration available.
       </div>
     </div>
 </div>

@@ -23,20 +23,15 @@ var uDressesApp = angular.module('uDresses', [
             templateUrl: "partials/home.html"
         })
         .state('kurtis', {
-            url: "/kurtis",
-            templateUrl: "partials/kurtis.html",
-            resolve: {
-              mutants : function(loadService){
-              return loadService.query;
-            }
-          }
+            url: "/products/:type",
+            templateUrl: "partials/kurtis.html"
         })
         .state('dresses', {
-            url: "/dresses",
-            templateUrl: "partials/dresses.html"
+            url: "/products/:type",
+            templateUrl: "partials/kurtis.html"
         })
-        .state('details/:id',{
-          url:"/details/:id",
+        .state('details/:type/:id',{
+          url:"/details/:type/:id",
           "templateUrl":"partials/product-detail.html",
           controller : 'DetailsController'
         });
