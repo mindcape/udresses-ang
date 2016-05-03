@@ -8,7 +8,8 @@ var uDressesApp = angular.module('uDresses', [
   'uDressesDirectives',
   'uDressesControllers',
   'uDressesFilters',
-  'uDressesServices'
+  'uDressesServices',
+  'ngCart'
 ]);
 
  uDressesApp.config(function ($stateProvider, $urlRouterProvider) {

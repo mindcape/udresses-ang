@@ -26,6 +26,9 @@
       <div>
         <span class="single-product-price"><span>$</span>{{details.price}}</span>
       </div>
+      <div>
+          <ngcart-addtocart id="{{details.id }}" name="{{details.name }}" price="{{ details.price }}" quantity="1" quantity-max="1" data="details">Add to Cart</ngcart-addtocart>
+      </div>
       <div class="single-product-description" id="product-description">
           {{details.desc}}
       </div>
