@@ -10,7 +10,7 @@
 
     <div class="row">
         <div class="col-xs-12 text-right">
-            <ngcart-checkout service="paypal" settings="payPalSettings"></ngcart-checkout>
+              <ngcart-checkout service="http" settings="{ url:'/php/sendEmail.php' }"></ngcart-checkout>
         </div>
     </div>
   </div>

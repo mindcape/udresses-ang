@@ -39,6 +39,6 @@ var uDressesApp = angular.module('uDresses', [
         .state('ucheckout',{
           url : "/ucheckout",
           templateUrl : "partials/ufCheckOut.html",
-          controller : 'CartController'
+          controller : 'uCartController'
         });
 })

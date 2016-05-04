@@ -88,3 +88,35 @@ $scope.slides = [];
   //     'https://2.bp.blogspot.com/-ZD9mYaG4Vqo/Vt1vVnVt-aI/AAAAAAAA0u4/NskIEfkLOi4/s1600/26.jpg'
   //   ];
 }]);
+
+uDressesControllers.controller('uCart' , ["$http", "ngCart", "$scope", function($http,ngCart, $scope) {
+        ngCart.setShipping(5.99),
+        ngCart.setTaxRate(0);
+        // ,
+        // $http({
+        //     method: "GET",
+        //     url: "data/phones.json"
+        // }).success(function(a) {
+        //     c.products = a
+        // }).error(function() {})
+}]);
+
+uDressesControllers.controller('uCartController',  ["ngCart", "$log", "$scope", function(ngCart, log, $scope) {
+
+
+      $scope.httpSettings = {
+          url: "/checkout"
+      },
+      $scope.payPalSettings = {
+          paypal: {
+              business: "mahiudaya@gmail.com",
+              item_name: "Order",
+              item_number: "item_number",
+              currency_code: "USD"
+          }
+      }, $scope.showCart = function() {
+          log.info("---Total Cost:---"), log.info(ngCart.totalCost()), log.info("---Items in Cart:---"),log.info(ngCart.getItems())
+      }
+
+
+}]);
