@@ -692,3 +692,8 @@ header{
     background-color: #00030C;
     border-radius: 4px;
 }
+
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}

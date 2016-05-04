@@ -35,5 +35,10 @@ var uDressesApp = angular.module('uDresses', [
           url:"/details/:type/:id",
           "templateUrl":"partials/product-detail.html",
           controller : 'DetailsController'
+        })
+        .state('ucheckout',{
+          url : "/ucheckout",
+          templateUrl : "partials/ufCheckOut.html",
+          controller : 'CartController'
         });
 })
