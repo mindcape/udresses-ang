@@ -17,9 +17,9 @@ uDressesControllers.controller('kurtisController', ['$scope','$http', '$filter',
       $scope.products = items;
       var photoset_id;
       if($stateParams.type == 'kurti'){
-        photoset_id = 7215766463999466+3;
+        photoset_id = 7215766463999466+'3';
       } else {
-        photoset_id = 72157667790506966;
+        photoset_id = 7215766779050696+'6';
       }
       var furl = 'https://api.flickr.com/services/rest/?method=flickr.photosets.getPhotos&user_id=140071727%40N03&photoset_id='+photoset_id+'&api_key=3d9a471e55f44c4d04503ae04cd304fe&format=json&jsoncallback=JSON_CALLBACK';
       $http.jsonp(furl)

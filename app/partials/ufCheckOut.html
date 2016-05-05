@@ -1,17 +1,45 @@
 <div class="row">
-    <div class="col-md-12">
 
-    <h3>Checkout <span>
-
-        <ngcart-cart></ngcart-cart>
-
-        </span></h3>
-
-
-    <div class="row">
-        <div class="col-xs-12 text-right">
-              <ngcart-checkout service="http" settings="{ url:'/php/sendEmail.php' }"></ngcart-checkout>
+    <div class="col-md-6">
+      <div class="box">
+        <h3>Billing Information</h3>
+        <div class="control-group">
+            <label class="control-label">Full Name</label>
+            <div class="controls">
+                <input id="full-name" name="full-name" type="text" placeholder="full name"
+                class="input-xlarge">
+                <p class="help-block"></p>
+            </div>
+        </div>
+        <div class="control-group">
+            <label class="control-label">Email</label>
+            <div class="controls">
+                <input id="email" name="email" type="text" placeholder="Email"
+                class="input-xlarge">
+                <p class="help-block"></p>
+            </div>
+        </div>
+        <div class="control-group">
+            <label class="control-label">Phone</label>
+            <div class="controls">
+                <input id="phone" name="phone" type="text" placeholder="Phone"
+                class="input-xlarge">
+                <p class="help-block"></p>
+            </div>
         </div>
     </div>
   </div>
+    <div class="col-md-6">
+
+        <div class="box">
+          <h3>Checkout</h3>
+          <ngcart-cart></ngcart-cart>
+        </div>
+      
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12 text-right">
+      <ngcart-checkout service="http" settings="{ url:'php/sendEmail.php' }">Checkout</ngcart-checkout>
+    </div>
 </div>
