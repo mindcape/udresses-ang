@@ -1,4 +1,5 @@
-<div class="row">
+<form name="myForm">
+ <div class="row">
 
     <div class="col-md-6">
       <div class="box">
@@ -6,40 +7,41 @@
         <div class="control-group">
             <label class="control-label">Full Name</label>
             <div class="controls">
-                <input id="full-name" name="full-name" type="text" placeholder="full name"
-                class="input-xlarge">
-                <p class="help-block"></p>
+                <input id="full-name" name="user.fullName" ng-model="user.fullName" type="text" placeholder="full name"
+                class="input-xlarge" required>
+                <span ng-show="myForm.user.fullName.$touched && myForm.user.fullName.$invalid">Full name is required.</span>
             </div>
         </div>
         <div class="control-group">
             <label class="control-label">Email</label>
             <div class="controls">
-                <input id="email" name="email" type="text" placeholder="Email"
-                class="input-xlarge">
-                <p class="help-block"></p>
+                <input id="email" name="user.email" ng-model="user.email" type="text" placeholder="Email"
+                class="input-xlarge" required>
+                  <span ng-show="myForm.user.email.$touched && myForm.user.email.$invalid">Email is required.</span>
             </div>
         </div>
         <div class="control-group">
             <label class="control-label">Phone</label>
             <div class="controls">
-                <input id="phone" name="phone" type="text" placeholder="Phone"
-                class="input-xlarge">
-                <p class="help-block"></p>
+                <input id="phone" ng-model="user.phone" name="user.phone" type="text" placeholder="Phone"
+                class="input-xlarge" required>
+                <span ng-show="myForm.user.phone.$touched && myForm.user.phone.$invalid">Phone is required.</span>
             </div>
         </div>
     </div>
   </div>
-    <div class="col-md-6">
+    <div class="col-md-6 box">
 
-        <div class="box">
-          <h3>Checkout</h3>
+        <div>
+          <h3>Order details</h3>
           <ngcart-cart></ngcart-cart>
         </div>
-      
+
   </div>
 </div>
-<div class="row">
+<div class="row extra-bottom-padding">
   <div class="col-xs-12 text-right">
-      <ngcart-checkout service="http" settings="{ url:'php/sendEmail.php' }">Checkout</ngcart-checkout>
+      <button class="btn btn-primary" name="Continue" type="button" value="Continue" ng-click="ufContinue()">Continue</button>
     </div>
 </div>
+</form>

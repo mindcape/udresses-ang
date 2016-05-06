@@ -702,3 +702,6 @@ header{
     margin-bottom: 22px;
     background: #fff;
 }
+.row.extra-bottom-padding{
+margin-bottom: 20px
+}

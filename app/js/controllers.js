@@ -101,9 +101,9 @@ uDressesControllers.controller('uCart' , ["$http", "ngCart", "$scope", function(
         // }).error(function() {})
 }]);
 
-uDressesControllers.controller('uCartController',  ["ngCart", "$log", "$scope", function(ngCart, log, $scope) {
+uDressesControllers.controller('uCartController',  ["ngCart", "$log", "$scope","$state", function(ngCart, log, $scope,$state) {
 
-
+      $scope.user = {};
       $scope.httpSettings = {
           url: "/checkout"
       },
@@ -116,6 +116,11 @@ uDressesControllers.controller('uCartController',  ["ngCart", "$log", "$scope", 
           }
       }, $scope.showCart = function() {
           log.info("---Total Cost:---"), log.info(ngCart.totalCost()), log.info("---Items in Cart:---"),log.info(ngCart.getItems())
+      }
+
+      $scope.ufContinue = function(){
+        console.log("name"+$scope.user.fullName);
+        $state.transitionTo('ufContinue', {confirm:'true'});
       }
 
 
