@@ -576,22 +576,20 @@ header{
   border-color: #e7e7e7;
   height: 54px;
 }
-
 .navbar-custom {
     background-color:inherit;
     color:#f8f8f8;
     border-radius:0;
-
 }
-
 .navbar-brand {
   padding: 1px;
 }
-
+.nav>li>a {
+    background: #F8D3D3;
+}
 .nav > li > a:hover{
     background-color:#FCC;
 }
-
 .navbar-custom .navbar-nav > li > a {
     color:#000000;
 }
@@ -677,18 +675,26 @@ header{
     background-color: #c0392b;
   }
 }
-
 .topbar-v3 {
     z-index: 99;
     position: relative;
     background: #000000;
     color: white;
 }
-
 .breadcrumb {
     padding: 3px 15px;
     margin-bottom: 20px;
     list-style: none;
     background-color: #00030C;
     border-radius: 4px;
+}
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+.box {
+    border: 1px solid #d1d1d1;
+    padding: 5px 20px 20px;
+    margin-bottom: 22px;
+    background: #fff;
 }

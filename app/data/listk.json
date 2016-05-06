@@ -46,7 +46,7 @@
 	"desc" : "EMBROIDERY GEORGETTE KURTI WITH SANTOON INNER",
 	"flikid" : "52002_c",
 	"Size" : "XL",
-	"Order" : "Please call or whatsapp to order. We accept only paypal payments."
+	"Order" : "Please call or whatsapp to order. We accept only paypal payments at the moment."
 },
 {
 	"id" : 6,
@@ -56,7 +56,7 @@
 	"desc" : "EMBROIDERY GEORGETTE KURTI WITH SANTOON INNER",
 	"flikid" : "52003_a",
 	"Size" : "XL",
-	"Order" : "Please call or whatsapp to order. We accept only paypal payments."
+	"Order" : "Please call or whatsapp to order. We accept only paypal payments at the moment."
 },
 {
 		"id" : 7,
@@ -66,7 +66,7 @@
 	"desc" : "COTTON CAMBRIC LAWN FABRIC KURTI",
 	"flikid" : "3MK",
 	"Size" : "XL",
-	"Order" : "Please call or whatsapp to order. We accept only paypal payments."
+	"Order" : "Please call or whatsapp to order. We accept only paypal payments at the moment."
 },
 {
 	"id" : 8,
@@ -76,7 +76,7 @@
 	"desc" : "Raw silk with inner",
 	"flikid" : "V1",
 	"Size" : "XL",
-	"Order" : "Please call or whatsapp to order. We accept only paypal payments."
+	"Order" : "Please call or whatsapp to order. We accept only paypal payments at the moment."
 },
 {
 	"id" : 9,
@@ -86,7 +86,7 @@
 	"desc" : "Raw silk with inner",
 	"flikid" : "V6",
 	"Size" : "XL",
-	"Order" : "Please call or whatsapp to order. We accept only paypal payments."
+	"Order" : "Please call or whatsapp to order. We accept only paypal payments at the moment."
 },
 {
 	"id" : 10,
@@ -96,7 +96,7 @@
 	"desc" : "Raw silk with inner",
 	"flikid" : "V5",
 	"Size" : "XL",
-	"Order" : "Please call or whatsapp to order. We accept only paypal payments."
+	"Order" : "Please call or whatsapp to order. We accept only paypal payments at the moment."
 },
 {
 	"id" : 11,
@@ -106,7 +106,7 @@
 	"desc" : "Raw silk with inner",
 	"flikid" : "V4",
 	"Size" : "XL",
-	"Order" : "Please call or whatsapp to order. We accept only paypal payments."
+	"Order" : "Please call or whatsapp to order. We accept only paypal payments at the moment."
 },
 {
 	"id" : 12,
@@ -116,7 +116,7 @@
 	"desc" : "Raw kora silk with inner",
 	"flikid" : "V3",
 	"Size" : "XL",
-	"Order" : "Please call or whatsapp to order. We accept only paypal payments."
+	"Order" : "Please call or whatsapp to order. We accept only paypal payments at the moment."
 },
 {
 	"id" : 13,
@@ -126,7 +126,7 @@
 	"desc" : "Raw kora silk with inner",
 	"flikid" : "V7",
 	"Size" : "XL",
-	"Order" : "Please call or whatsapp to order. We accept only paypal payments."
+	"Order" : "Please call or whatsapp to order. We accept only paypal payments at the moment."
 },
 {
 	"id" : 14,
@@ -136,7 +136,7 @@
 	"desc" : "Jackard Cotton 60*60 Cotton Kurti",
 	"flikid" : "a3",
 	"Size" : "XL",
-	"Order" : "Please call or whatsapp to order. We accept only paypal payments."
+	"Order" : "Please call or whatsapp to order. We accept only paypal payments at the moment."
 },
 {
 	"id" : 15,
@@ -146,7 +146,7 @@
 	"desc" : "Jackard Cotton 60*60 Cotton Kurti",
 	"flikid" : "a2",
 	"Size" : "XL",
-	"Order" : "Please call or whatsapp to order. We accept only paypal payments."
+	"Order" : "Please call or whatsapp to order. We accept only paypal payments at the moment."
 },
 {
 	"id" : 16,
@@ -156,7 +156,7 @@
 	"desc" : "Jackard Cotton 60*60 Cotton Kurti",
 	"flikid" : "a1",
 	"Size" : "XL",
-	"Order" : "Please call or whatsapp to order. We accept only paypal payments."
+	"Order" : "Please call or whatsapp to order. We accept only paypal payments at the moment."
 },
 {
 	"id" : 17,
@@ -166,17 +166,17 @@
 	"desc" : "Jackard Cotton 60*60 Cotton Kurti",
 	"flikid" : "a7",
 	"Size" : "XL",
-	"Order" : "Please call or whatsapp to order. We accept only paypal payments."
+	"Order" : "Please call or whatsapp to order. We accept only paypal payments at the moment."
 },
 {
 	"id" : 18,
-	"name": "Gorgeous yellow color 60*60 cotton kurti",
+	"name": "Gorgeous yellow 60*60 cotton kurti",
 	"actor": "kurti",
 	"price" : 18.99,
 	"desc" : "Jackard Cotton 60*60 Cotton Kurti",
 	"flikid" : "a5",
 	"Size" : "XL",
-	"Order" : "Please call or whatsapp to order. We accept only paypal payments."
+	"Order" : "Please call or whatsapp to order. We accept only paypal payments at the moment."
 },
 {
 	"id" : 19,
@@ -186,7 +186,7 @@
 	"desc" : "Jackard Cotton 60*60 Cotton Kurti",
 	"flikid" : "a6",
 	"Size" : "XL",
-	"Order" : "Please call or whatsapp to order. We accept only paypal payments."
+	"Order" : "Please call or whatsapp to order. We accept only paypal payments at the moment."
 },
 {
 	"id" : 20,
@@ -196,5 +196,105 @@
 	"desc" : "Jackard Cotton 60*60 Cotton Kurti",
 	"flikid" : "a4",
 	"Size" : "XL",
-	"Order" : "Please call or whatsapp to order. We accept only paypal payments."
+	"Order" : "Please call or whatsapp to order. We accept only paypal payments at the moment."
+},
+{
+	"id" : 21,
+	"name": "Fancy heavy georgette skirt model kurti",
+	"actor": "kurti",
+	"price" : 26.99,
+	"desc" : "Georgette cloth",
+	"flikid" : "b41",
+	"Size" : "L Length 47",
+	"Order" : "Please call or whatsapp to order. We accept only paypal payments at the moment."
+},
+{
+	"id" : 22,
+	"name": "Fancy heavy georgette skirt model kurti",
+	"actor": "kurti",
+	"price" : 27.99,
+	"desc" : "Georgette cloth",
+	"flikid" : "b35",
+	"Size" : "L Length 47",
+	"Order" : "Please call or whatsapp to order. We accept only paypal payments at the moment."
+},
+{
+	"id" : 23,
+	"name": "Fancy heavy georgette skirt",
+	"actor": "kurti",
+	"price" : 27.99,
+	"desc" : "Georgette cloth",
+	"flikid" : "b40",
+	"Size" : "L Length 47",
+	"Order" : "Please call or whatsapp to order. We accept only paypal payments at the moment."
+},
+{
+	"id" : 24,
+	"name": "Fancy heavy georgette skirt model kurti",
+	"actor": "hide",
+	"price" : 27.99,
+	"desc" : "Georgette cloth",
+	"flikid" : "b38",
+	"Size" : "L Length 47",
+	"Order" : "Please call or whatsapp to order. We accept only paypal payments at the moment."
+},
+{
+	"id" : 25,
+	"name": "Fancy heavy georgette skirt model kurti",
+	"actor": "hide",
+	"price" : 27.99,
+	"desc" : "Georgette cloth",
+	"flikid" : "b39",
+	"Size" : "L Length 47",
+	"Order" : "Please call or whatsapp to order. We accept only paypal payments at the moment."
+},
+{
+	"id" : 26,
+	"name": "Fancy heavy georgette skirt model kurti",
+	"actor": "hide",
+	"price" : 28.99,
+	"desc" : "Georgette cloth",
+	"flikid" : "b36",
+	"Size" : "L Length 47",
+	"Order" : "Please call or whatsapp to order. We accept only paypal payments at the moment."
+},
+{
+	"id" : 27,
+	"name": "Fancy heavy georgette skirt model kurti",
+	"actor": "hide",
+	"price" : 26.99,
+	"desc" : "Georgette cloth",
+	"flikid" : "b37",
+	"Size" : "L Length 47",
+	"Order" : "Please call or whatsapp to order. We accept only paypal payments at the moment."
+},
+{
+	"id" : 28,
+	"name": "Nice Hand design georgette kurti",
+	"actor": "kurti",
+	"price" : 22.99,
+	"desc" : "Pure georgette cloth",
+	"flikid" : "b30",
+	"Size" : "L Length 40",
+	"Order" : "Please call or whatsapp to order. We accept only paypal payments at the moment."
+},
+{
+	"id" : 29,
+	"name": "Front zipper bottom embroidery georgette kurti",
+	"actor": "kurti",
+	"price" : 23.99,
+	"desc" : "Georgette cloth",
+	"flikid" : "b28",
+	"Size" : "L Length 40",
+	"Order" : "Please call or whatsapp to order. We accept only paypal payments at the moment."
+},
+{
+	"id" : 30,
+	"name": "Neck design back rope georgette kurti",
+	"actor": "kurti",
+	"price" : 22.99,
+	"desc" : "Georgette cloth and no side cut",
+	"flikid" : "b31",
+	"Size" : "L Length 40",
+	"Order" : "Please call or whatsapp to order. We accept only paypal payments at the moment."
 }]
