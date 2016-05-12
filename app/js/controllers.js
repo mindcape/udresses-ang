@@ -49,11 +49,11 @@ uDressesControllers.controller('DetailsController', ['$scope','$http', '$filter'
         $scope.details=item;
         var photoset_id;
         if($scope.details.actor == 'kurti'){
-          $scope.details.desc = "Designer kurti"
+          $scope.details.dressType = "Designer kurti"
           $scope.details.type = 'Kurtis';
           photoset_id = 7215766463999466+'3';
         } else {
-          $scope.details.desc = "Custom stitched dress"
+          $scope.details.dressType = "Custom stitched dress"
           $scope.details.type = 'Dresses';
           photoset_id = 7215766779050696+'6';
         }

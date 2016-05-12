@@ -548,6 +548,13 @@ h1 {
     line-height: 28px;
 }
 
+.product-bold{
+  font-family: Karla,sans-serif;
+  position: relative;
+  line-height: 28px;
+  font-weight: bolder;
+}
+
 footer {
     background: #94999C;
     padding: 10px 0 0 0;
