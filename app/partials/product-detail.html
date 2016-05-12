@@ -14,6 +14,7 @@
         <div class="image-table">
           <div class="image-cell">
             <img ng-src="{{details.image}}">
+            <p ng-show="details.stock == 0" class="Sold">SOLD OUT</p>
           </div>
         </div>
       </div>
@@ -38,5 +39,12 @@
       <div class="product-bold" id="product-description">
           We can attach hands for free and other alteration available.
       </div>
+      <!-- Your like button code -->
+  	<div class="fb-like"
+  		data-href="http://www.udayafashions.com/#/products/{{details.actor}}" 
+  		data-layout="standard"
+  		data-action="like"
+  		data-show-faces="true">
+  	</div>
     </div>
 </div>

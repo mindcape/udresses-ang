@@ -4,6 +4,12 @@
   <meta charset="utf-8">
   <title>Udaya Fashions</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta property="og:url"           content="http://www.udayafashions.com/" />
+  	<meta property="og:type"          content="website" />
+  	<meta property="og:title"         content="UdayaFashions" />
+  	<meta property="og:description"   content="Rising Fashions" />
+  	<meta property="og:image"         content="http://www.udayafashions.com/" />
+
   <link rel="icon" type="img" href="favicon.ico" />
   <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="bower_components/flexslider/flexslider.css">
@@ -16,7 +22,12 @@
   <div class="topbar-v3">
     <div class="container">
         <div class="row">
-            <div class="col-sm-12 text-right">
+          <div class="col-sm-6 text-left">
+              Like us on:
+            <a href="http://facebook.com/udayadresses" target="_blank">
+            <i class="fa fa-facebook" style="font-size: 20px;"></i></a>
+          </div>
+            <div class="col-sm-6 text-right">
                 Get in touch with us:
                 <i class="fa fa-phone" style="font-size: 20px;"></i> +1(804)592-6824
                 <i class="fa fa-whatsapp" style="font-size: 20px;"></i> +1(612)524-7291
@@ -178,4 +189,13 @@
 <script src="js/filters.js"></script>
 <script src="js/services.js"></script>
 <script src="js/directives.js"></script>
+<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+
 </html>
