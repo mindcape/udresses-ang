@@ -705,3 +705,18 @@ header{
 .row.extra-bottom-padding{
 margin-bottom: 20px
 }
+
+.Sold {/** text **/
+font:bold 4.5em/1.5em Georgia, "Times New Roman", Times, serif;
+color: red;
+background: white;
+text-align:center;
+position: absolute;
+/**adjust as needed**/
+top: 40%;
+left: 30%;
+/**note: CSS3 TRANSFORM: ROTATE DOESN'T WORK IN ALL BROWSERS YET**/
+-webkit-transform: rotate(-30deg); /**safari, chrome**/
+-moz-transform: rotate(-30deg); /**firefox**/
+transform: rotate(-30deg); /**other browsers**/
+}

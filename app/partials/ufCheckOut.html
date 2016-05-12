@@ -1,31 +1,32 @@
-<form name="myForm">
+<div>
+<form novalidate class="css-form" name="myForm">
  <div class="row">
 
     <div class="col-md-6">
       <div class="box">
-        <h3>Billing Information</h3>
-        <div class="control-group">
-            <label class="control-label">Full Name</label>
-            <div class="controls">
-                <input id="full-name" name="user.fullName" ng-model="user.fullName" type="text" placeholder="full name"
-                class="input-xlarge" required>
-                <span ng-show="myForm.user.fullName.$touched && myForm.user.fullName.$invalid">Full name is required.</span>
-            </div>
+        <h3>Billing Information --{{confirm}}-</h3>
+        <div  class="form-group" ng-class="{ 'has-error' : myForm.user.fullName.$invalid && !myForm.user.fullName.$pristine && submitted}">
+            <label>Full Name</label>
+            <input id="full-name" class="form-control" name="user.fullName" ng-model="user.fullName"
+            type="text" placeholder="full name" required ng-minlength="6" ng-maxlength="50">
+            <p ng-show="myForm.user.fullName.$invalid && !myForm.user.fullName.$pristine && submitted" class="help-block">Full Name is required.</p>
+            <p ng-show="myForm.user.fullName.$error.minlength && submitted" class="help-block">Full Name is too short.</p>
+            <p ng-show="myForm.user.fullName.$error.maxlength && submitted" class="help-block">Full Name is too long.</p>
         </div>
-        <div class="control-group">
+        <div  class="form-group" ng-class="{ 'has-error' : myForm.user.email.$invalid && !myForm.user.email.$pristine && submitted}">
             <label class="control-label">Email</label>
             <div class="controls">
-                <input id="email" name="user.email" ng-model="user.email" type="text" placeholder="Email"
-                class="input-xlarge" required>
-                  <span ng-show="myForm.user.email.$touched && myForm.user.email.$invalid">Email is required.</span>
+                <input id="email" name="user.email" ng-model="user.email" type="text" placeholder="Email"  class="form-control"
+                 required>
+                <p ng-show="myForm.user.email.$invalid && !myForm.user.email.$pristine" class="help-block">Email is invalid.</p>
             </div>
         </div>
-        <div class="control-group">
+        <div class="form-group" ng-class="{ 'has-error' : myForm.phone.$invalid && !myForm.phone.$pristine && submitted}">
             <label class="control-label">Phone</label>
             <div class="controls">
-                <input id="phone" ng-model="user.phone" name="user.phone" type="text" placeholder="Phone"
-                class="input-xlarge" required>
-                <span ng-show="myForm.user.phone.$touched && myForm.user.phone.$invalid">Phone is required.</span>
+                <input id="phone" ng-model="user.phone" name="phone" type="text" placeholder="Phone"
+                 class="form-control" required ng-minlength="10" ng-maxlength="13">
+                <p ng-show="myForm.phone.$invalid && !myForm.phone.$pristine && submitted" class="help-block">Phone is invalid.</p>
             </div>
         </div>
     </div>
@@ -41,7 +42,8 @@
 </div>
 <div class="row extra-bottom-padding">
   <div class="col-xs-12 text-right">
-      <button class="btn btn-primary" name="Continue" type="button" value="Continue" ng-click="ufContinue()">Continue</button>
+      <button class="btn btn-primary" name="Continue" type="button" value="Continue" ng-click="ufContinue(!myForm.$valid)">Continue</button>
     </div>
 </div>
 </form>
+</div>

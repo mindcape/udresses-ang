@@ -117,10 +117,14 @@ uDressesControllers.controller('uCartController',  ["ngCart", "$log", "$scope","
       }, $scope.showCart = function() {
           log.info("---Total Cost:---"), log.info(ngCart.totalCost()), log.info("---Items in Cart:---"),log.info(ngCart.getItems())
       }
-
-      $scope.ufContinue = function(){
+      $scope.submitted = false;
+      $scope.ufContinue = function(isValid){
+        console.log(isValid);
+        $scope.submitted = true;
         console.log("name"+$scope.user.fullName);
-        $state.transitionTo('ufContinue', {confirm:'true'});
+        if(isValid) {
+          $state.transitionTo('ufContinue', {confirm:'true'});
+        }
       }
 
 
