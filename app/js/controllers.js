@@ -4,8 +4,9 @@
 
 var uDressesControllers = angular.module('uDressesControllers', ['ui.bootstrap','angular-flexslider']);
 
-uDressesControllers.controller('kurtisController', ['$scope','$http', '$filter', 'loadService','$uibModal','$stateParams',
-  function($scope, $http, $filter, loadService, $uibModal,$stateParams) {
+uDressesControllers.controller('kurtisController', ['$scope','$http', '$filter', 'loadService','$uibModal','$stateParams','$location','$anchorScroll','$timeout',
+  function($scope, $http, $filter, loadService, $uibModal,$stateParams,$location,$anchorScroll,$timeout) {
+
     if($stateParams.type == 'kurti'){
       $scope.productType = 'Kurtis';
       $scope.typeHeaderText = 'Designer Kurtis Collection'
@@ -30,7 +31,15 @@ uDressesControllers.controller('kurtisController', ['$scope','$http', '$filter',
               dress.image = "https://farm"+photo.farm+".staticflickr.com/"+photo.server+"/"+photo.id+"_"+photo.secret+"_b.jpg";
           })
       })
+      if($stateParams.anc){
+        $timeout(function() {
+          $location.hash($stateParams.anc);
+        });
+      }
     });
+
+
+
     var log = [];
 
     $scope.quickView = function(){
@@ -41,8 +50,8 @@ uDressesControllers.controller('kurtisController', ['$scope','$http', '$filter',
 }]);
 
 
-uDressesControllers.controller('DetailsController', ['$scope','$http', '$filter','loadService','detailsService','$uibModal','$stateParams',
-  function($scope, $http, $filter,loadService, detailsService, $uibModal, $stateParams) {
+uDressesControllers.controller('DetailsController', ['$scope','$http', '$filter','loadService','detailsService','$uibModal','$stateParams','$location','$state',
+  function($scope, $http, $filter,loadService, detailsService, $uibModal, $stateParams,$location,$state) {
 
 
     detailsService.getItem($stateParams.id,$stateParams.type).then(function(item) {
@@ -64,14 +73,17 @@ uDressesControllers.controller('DetailsController', ['$scope','$http', '$filter'
         })
     });
 
+    $scope.go_back = function(path,divId) {
+           $state.transitionTo(path, {type:path, anc:divId},{reload:true});
+    };
 
 
 }]);
 
 uDressesControllers.controller('NavigationController', ['$scope' , function ($scope) {
     $scope.tree = [{
-        name: "kurtis",
-        link: "kurtis",
+        name: "kurti",
+        link: "kurti",
     }];
 }]);
 

@@ -22,12 +22,12 @@ var uDressesApp = angular.module('uDresses', [
             url: "/home",
             templateUrl: "partials/home.html"
         })
-        .state('kurtis', {
-            url: "/products/:type",
+        .state('kurti', {
+            url: "/products/:type/:anc",
             templateUrl: "partials/kurtis.html"
         })
-        .state('dresses', {
-            url: "/products/:type",
+        .state('dress', {
+            url: "/products/:type/:anc",
             templateUrl: "partials/kurtis.html"
         })
         .state('details/:type/:id',{
