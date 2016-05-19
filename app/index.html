@@ -70,17 +70,19 @@
               </ul> -->
 
               <ul class="nav navbar-nav navbar-right">
-                  <li >
-                      <a href="#/products/kurti/1">
-                          Kurtis
-                          <!-- <b class='caret'></b> -->
-                      </a
-                  </li>
-                  <li >
-                    <a href="#/products/dress/1">
-                        Dresses
-                        <!-- <span class='caret'></span> -->
+                  <li uib-dropdown>
+                    <a href="#" uib-dropdown-toggle>
+                          Ladies Wear
+                          <span class='caret'></span>
                     </a>
+                    <tree tree="ladies"></tree>
+                  </li>
+                  <li uib-dropdown>
+                    <a href="#" uib-dropdown-toggle>
+                          Kids Wear
+                          <span class='caret'></span>
+                    </a>
+                    <tree tree="kids"></tree>
                   </li>
               </ul>
           </div>
@@ -175,7 +177,7 @@
 <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
 
 <!-- ui-navbar script -->
-<script src="bower_components/ui-navbar/release/js/ui-navbar.min.js"></script>
+<script src="bower_components/ui-navbar/release/js/ui-navbar.js"></script>
 
 
 <script src="bower_components/angular-animate/angular-animate.js"></script>

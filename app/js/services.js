@@ -13,8 +13,12 @@ uDressesServices.factory('loadService', ['$q','$resource','$filter',
       var url;
       if(type=='kurti'){
         url = 'data/listk.json';
-      } else {
+      } else   if(type=='dress'){
         url = 'data/listd.json'
+      } else   if(type=='boys'){
+        url = 'data/listb.json'
+      } else   if(type=='girls'){
+        url = 'data/listg.json'
       }
       $resource(url).query({},function(data) {
           var items=[];
@@ -43,8 +47,12 @@ uDressesServices.factory('detailsService', ['$q','$resource','$filter',
         var url;
         if(type=='kurti'){
           url = 'data/listk.json';
-        } else {
+        } else   if(type=='dress'){
           url = 'data/listd.json'
+        } else   if(type=='boys'){
+          url = 'data/listb.json'
+        } else   if(type=='girls'){
+          url = 'data/listg.json'
         }
         $resource(url).query({},function(data) {
            var item= $filter('filter')(data,{flikid:id})[0];

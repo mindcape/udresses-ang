@@ -10,17 +10,28 @@ uDressesControllers.controller('kurtisController', ['$scope','$http', '$filter',
     if($stateParams.type == 'kurti'){
       $scope.productType = 'Kurtis';
       $scope.typeHeaderText = 'Designer Kurtis Collection'
-    } else {
+    } else  if($stateParams.type == 'dress'){
       $scope.productType = 'Dresses';
       $scope.typeHeaderText = 'Custom stitched dresses'
+    } else if($stateParams.type == 'boys') {
+      $scope.productType = 'Boys';
+      $scope.typeHeaderText = 'Hand Picked Boys Dress Collection'
+    } else if($stateParams.type == 'girls') {
+      $scope.productType = 'Girls';
+      $scope.typeHeaderText = 'Hand Picked Girls Dress Collection'
     }
+
     loadService.queryItems($stateParams.type).then(function(items){
       $scope.products = items;
       var photoset_id;
       if($stateParams.type == 'kurti'){
         photoset_id = 7215766463999466+'3';
-      } else {
+      } else if($stateParams.type == 'dress') {
         photoset_id = 7215766779050696+'6';
+      } else if($stateParams.type == 'boys'){
+          photoset_id = 7215766828374136 + '1'
+      } else if($stateParams.type == 'girls'){
+          photoset_id = 7215766610928416 + '3'
       }
       var furl = 'https://api.flickr.com/services/rest/?method=flickr.photosets.getPhotos&user_id=140071727%40N03&photoset_id='+photoset_id+'&api_key=3d9a471e55f44c4d04503ae04cd304fe&format=json&jsoncallback=JSON_CALLBACK';
       $http.jsonp(furl)
@@ -61,10 +72,18 @@ uDressesControllers.controller('DetailsController', ['$scope','$http', '$filter'
           $scope.details.dressType = "Designer kurti"
           $scope.details.type = 'Kurtis';
           photoset_id = 7215766463999466+'3';
-        } else {
+        } else if($scope.details.actor == 'dress' ){
           $scope.details.dressType = "Custom stitched dress"
           $scope.details.type = 'Dresses';
           photoset_id = 7215766779050696+'6';
+        } else if($scope.details.actor == 'boys'){
+          $scope.details.dressType = "Hand Picked Boys Dress"
+          $scope.details.type="Boys";
+          photoset_id = 7215766828374136 + '1'
+        } else if($scope.details.actor == 'girls'){
+          $scope.details.dressType = "Hand Picked Girls Dress"
+          $scope.details.type="Girls";
+          photoset_id = 7215766610928416 + '3'
         }
         var furl = 'https://api.flickr.com/services/rest/?method=flickr.photosets.getPhotos&user_id=140071727%40N03&photoset_id='+photoset_id+'&api_key=3d9a471e55f44c4d04503ae04cd304fe&format=json&jsoncallback=JSON_CALLBACK';
         $http.jsonp(furl).success(function(data) {
@@ -81,10 +100,20 @@ uDressesControllers.controller('DetailsController', ['$scope','$http', '$filter'
 }]);
 
 uDressesControllers.controller('NavigationController', ['$scope' , function ($scope) {
-    $scope.tree = [{
-        name: "kurti",
-        link: "kurti",
-    }];
+
+    $scope.kids = [{
+      name: "Boys",link: "boys"
+    },{
+      name: "Girls", link : "girls"
+    }]
+
+    $scope.ladies = [{
+      name: "Kurtis",link : "kurti2"
+    },{
+      name: "Dresses",link : "dress"
+    },{
+      name : "Leggins",link : "leggins"
+    }]
 }]);
 
 uDressesControllers.controller('BasicSliderController',['$scope','$http',function($scope, $http){
