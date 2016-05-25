@@ -19,6 +19,8 @@ uDressesServices.factory('loadService', ['$q','$resource','$filter',
         url = 'data/listb.json'
       } else   if(type=='girls'){
         url = 'data/listg.json'
+      } else   if(type=='leggins'){
+        url = 'data/listl.json'
       }
       $resource(url).query({},function(data) {
           var items=[];
@@ -53,6 +55,8 @@ uDressesServices.factory('detailsService', ['$q','$resource','$filter',
           url = 'data/listb.json'
         } else   if(type=='girls'){
           url = 'data/listg.json'
+        }else   if(type=='leggins'){
+          url = 'data/listl.json'
         }
         $resource(url).query({},function(data) {
            var item= $filter('filter')(data,{flikid:id})[0];

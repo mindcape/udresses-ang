@@ -1,0 +1,31 @@
+[{
+	"id" : 1,
+	"name": "SUPER SOFT PRINTED COTTON LYCRA LEGGINGS IN FREE SIZE",
+	"actor": "leggins",
+	"price" : 6.99,
+	"desc" : "One Leggin 32 different shades available",
+	"flikid" : "leggin1",
+	"Size" : "Free size",
+	"Order" : "Please call or whatsapp to order. We accept only paypal payments at the moment.",
+	"stock" : 1
+},{
+	"id" : 2,
+	"name": "SUPER SOFT PRINTED VISCOSE LEGGINGS IN FREE SIZE",
+	"actor": "leggins",
+	"price" : 7.99,
+	"desc" : "One Leggin 32 different shades available",
+	"flikid" : "leggin1",
+	"Size" : "Free size",
+	"Order" : "Please call or whatsapp to order. We accept only paypal payments at the moment.",
+	"stock" : 1
+},{
+	"id" : 3,
+	"name": "SUPER SOFT PRINTED PATIYALA LEGGINGS IN FREE SIZE",
+	"actor": "leggins",
+	"price" : 9.99,
+	"desc" : "One Leggin 32 different shades available",
+	"flikid" : "leggin1",
+	"Size" : "Kids and adult sizes",
+	"Order" : "Please call or whatsapp to order. We accept only paypal payments at the moment.",
+	"stock" : 1
+}]

@@ -19,6 +19,9 @@ uDressesControllers.controller('kurtisController', ['$scope','$http', '$filter',
     } else if($stateParams.type == 'girls') {
       $scope.productType = 'Girls';
       $scope.typeHeaderText = 'Hand Picked Girls Dress Collection'
+    } else if ($stateParams.type == 'leggins'){
+      $scope.productType = 'Leggins';
+      $scope.typeHeaderText = 'Ultra Soft Leggins'
     }
 
     loadService.queryItems($stateParams.type).then(function(items){
@@ -32,6 +35,8 @@ uDressesControllers.controller('kurtisController', ['$scope','$http', '$filter',
           photoset_id = 7215766828374136 + '1'
       } else if($stateParams.type == 'girls'){
           photoset_id = 7215766610928416 + '3'
+      } else if($stateParams.type == 'leggins'){
+          photoset_id = 7215766851927248 + '1'
       }
       var furl = 'https://api.flickr.com/services/rest/?method=flickr.photosets.getPhotos&user_id=140071727%40N03&photoset_id='+photoset_id+'&api_key=3d9a471e55f44c4d04503ae04cd304fe&format=json&jsoncallback=JSON_CALLBACK';
       $http.jsonp(furl)
@@ -84,6 +89,10 @@ uDressesControllers.controller('DetailsController', ['$scope','$http', '$filter'
           $scope.details.dressType = "Hand Picked Girls Dress"
           $scope.details.type="Girls";
           photoset_id = 7215766610928416 + '3'
+        } else if($scope.details.actor == 'leggins'){
+          $scope.details.dressType = "Ultra Soft Leggins"
+          $scope.details.type="Leggins";
+          photoset_id = 7215766851927248 + '1'
         }
         var furl = 'https://api.flickr.com/services/rest/?method=flickr.photosets.getPhotos&user_id=140071727%40N03&photoset_id='+photoset_id+'&api_key=3d9a471e55f44c4d04503ae04cd304fe&format=json&jsoncallback=JSON_CALLBACK';
         $http.jsonp(furl).success(function(data) {
@@ -108,7 +117,7 @@ uDressesControllers.controller('NavigationController', ['$scope' , function ($sc
     }]
 
     $scope.ladies = [{
-      name: "Kurtis",link : "kurti2"
+      name: "Kurtis",link : "kurti"
     },{
       name: "Dresses",link : "dress"
     },{

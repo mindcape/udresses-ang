@@ -22,7 +22,7 @@ var uDressesApp = angular.module('uDresses', [
             url: "/home",
             templateUrl: "partials/home.html"
         })
-        .state('kurti2', {
+        .state('kurti', {
             url: "/products/:type/:anc",
             templateUrl: "partials/kurtis.html",
             params: { type: "kurti", anc: "1" }
@@ -50,9 +50,6 @@ var uDressesApp = angular.module('uDresses', [
         .state('boys',{
           url: "/products/:type/:anc",
           templateUrl : "partials/kurtis.html",
-          params: {
-              type: "boys",
-              anc: "1"
-          }
+          params: {type: "boys",anc: "1"}
         });
 })
