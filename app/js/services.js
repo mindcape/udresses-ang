@@ -32,6 +32,38 @@ uDressesServices.factory('loadService', ['$q','$resource','$filter',
          itemsDefer.resolve(items);
       });
       return itemsDefer.promise;
+    },
+
+    service.getActorDetails= function(type) {
+      var actorDetails = {
+        dressType : '',
+        actorType : '',
+        photosetId : ''
+      }
+
+      if(type == 'kurti'){
+        actorDetails.dressType = "Designer kurti"
+        actorDetails.actorType = 'Kurtis';
+        actorDetails.photosetId = 7215766463999466+'3';
+      } else if(type == 'dress' ){
+        actorDetails.dressType = "Custom stitched dress"
+        actorDetails.actorType = 'Dresses';
+        actorDetails.photosetId = 7215766779050696+'6';
+      } else if(type == 'boys'){
+        actorDetails.dressType = "Hand Picked Boys Dress"
+        actorDetails.actorType="Boys";
+        actorDetails.photosetId = 7215766828374136 + '1'
+      } else if(type == 'girls'){
+        actorDetails.dressType = "Hand Picked Girls Dress"
+        actorDetails.actorType="Girls";
+        actorDetails.photosetId = 7215766610928416 + '3'
+      } else if(type == 'leggins'){
+        actorDetails.dressType = "Ultra Soft Leggins"
+        actorDetails.actorType="Leggins";
+        actorDetails.photosetId = 7215766851927248 + '1'
+      }
+
+      return actorDetails;
     }
 
     return service;

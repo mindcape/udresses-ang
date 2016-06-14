@@ -1,4 +1,194 @@
 [{
+	"id" : 74,
+	"name": "Queen beauty cotton kurti for summer wear",
+	"actor": "kurti",
+	"price" : 15.99,
+	"desc" : "Designer Wear Cotton Kurti",
+	"flikid" : "l1",
+	"Size" : "3XL",
+	"Order" : "Please call or whatsapp to order. We accept all forms of payments.",
+	"stock" : 1
+},{
+	"id" : 73,
+	"name": "Splendid blue cotton kurti for summer wear",
+	"actor": "kurti",
+	"price" : 15.99,
+	"desc" : "Designer Wear Cotton Kurti",
+	"flikid" : "l2",
+	"Size" : "3XL",
+	"Order" : "Please call or whatsapp to order. We accept all forms of payments.",
+	"stock" : 1
+},{
+	"id" : 72,
+	"name": "Style saga short cotton kurti for summer wear",
+	"actor": "kurti",
+	"price" : 10.99,
+	"desc" : "Designer short Cotton Kurti",
+	"flikid" : "s5",
+	"Size" : "L,XL",
+	"Order" : "Please call or whatsapp to order. We accept all forms of payments.",
+	"stock" : 1
+},{
+	"id" : 71,
+	"name": "Modern art short cotton kurti for summer wear",
+	"actor": "kurti",
+	"price" : 10.99,
+	"desc" : "Designer short Cotton Kurti",
+	"flikid" : "s3",
+	"Size" : "L,XL",
+	"Order" : "Please call or whatsapp to order. We accept all forms of payments.",
+	"stock" : 1
+},{
+	"id" : 70,
+	"name": "Intricate artistry short cotton kurti for summer wear",
+	"actor": "kurti",
+	"price" : 10.99,
+	"desc" : "Designer short Cotton Kurti",
+	"flikid" : "s12",
+	"Size" : "L,XL",
+	"Order" : "Please call or whatsapp to order. We accept all forms of payments.",
+	"stock" : 1
+},{
+	"id" : 69,
+	"name": "Runway look short cotton kurti for summer wear",
+	"actor": "kurti",
+	"price" : 10.99,
+	"desc" : "Designer short Cotton Kurti",
+	"flikid" : "s10",
+	"Size" : "L,XL",
+	"Order" : "Please call or whatsapp to order. We accept all forms of payments.",
+	"stock" : 1
+},{
+	"id" : 68,
+	"name": "Dream dress short cotton kurti for summer wear",
+	"actor": "kurti",
+	"price" : 10.99,
+	"desc" : "Designer short Cotton Kurti",
+	"flikid" : "s1",
+	"Size" : "L,XL",
+	"Order" : "Please call or whatsapp to order. We accept all forms of payments.",
+	"stock" : 1
+},{
+	"id" : 67,
+	"name": "Modern art short cotton kurti for summer wear",
+	"actor": "kurti",
+	"price" : 10.99,
+	"desc" : "Designer short Cotton Kurti",
+	"flikid" : "s11",
+	"Size" : "L,XL",
+	"Order" : "Please call or whatsapp to order. We accept all forms of payments.",
+	"stock" : 1
+},{
+	"id" : 66,
+	"name": "Glam glitz short cotton kurti for summer wear",
+	"actor": "kurti",
+	"price" : 10.99,
+	"desc" : "Designer short Cotton Kurti",
+	"flikid" : "s8",
+	"Size" : "L,XL",
+	"Order" : "Please call or whatsapp to order. We accept all forms of payments.",
+	"stock" : 1
+},{
+	"id" : 65,
+	"name": "Glamour girl short cotton kurti for summer wear",
+	"actor": "kurti",
+	"price" : 10.99,
+	"desc" : "Designer short Cotton Kurti",
+	"flikid" : "s6",
+	"Size" : "L,XL",
+	"Order" : "Please call or whatsapp to order. We accept all forms of payments.",
+	"stock" : 1
+},{
+	"id" : 64,
+	"name": "Queen's saga short cotton kurti for summer wear",
+	"actor": "kurti",
+	"price" : 10.99,
+	"desc" : "Designer short Cotton Kurti",
+	"flikid" : "s9",
+	"Size" : "L,XL",
+	"Order" : "Please call or whatsapp to order. We accept all forms of payments.",
+	"stock" : 1
+},{
+	"id" : 63,
+	"name": "Modern art short cotton kurti for summer wear",
+	"actor": "kurti",
+	"price" : 10.99,
+	"desc" : "Designer short Cotton Kurti",
+	"flikid" : "s7",
+	"Size" : "L,XL",
+	"Order" : "Please call or whatsapp to order. We accept all forms of payments.",
+	"stock" : 1
+},{
+	"id" : 62,
+	"name": "Ethnic Indian chicken fabric cotton kurti",
+	"actor": "kurti",
+	"price" : 14.99,
+	"desc" : "Designer chicken Cotton Kurti",
+	"flikid" : "K4",
+	"Size" : "XL",
+	"Order" : "Please call or whatsapp to order. We accept all forms of payments.",
+	"stock" : 1
+},{
+	"id" : 61,
+	"name": "Best wardrobe collection chicken fabric cotton kurti",
+	"actor": "kurti",
+	"price" : 14.99,
+	"desc" : "Designer chicken Cotton Kurti",
+	"flikid" : "K3",
+	"Size" : "XL",
+	"Order" : "Please call or whatsapp to order. We accept all forms of payments.",
+	"stock" : 1
+},{
+	"id" : 60,
+	"name": "Glamorous chicken fabric cotton kurti",
+	"actor": "kurti",
+	"price" : 14.99,
+	"desc" : "Designer chicken Cotton Kurti",
+	"flikid" : "K1",
+	"Size" : "XL",
+	"Order" : "Please call or whatsapp to order. We accept all forms of payments.",
+	"stock" : 1
+},{
+	"id" : 59,
+	"name": "Classic chicken fabric cotton kurti",
+	"actor": "kurti",
+	"price" : 14.99,
+	"desc" : "Designer chicken Cotton Kurti",
+	"flikid" : "K2",
+	"Size" : "XL",
+	"Order" : "Please call or whatsapp to order. We accept all forms of payments.",
+	"stock" : 1
+},{
+	"id" : 58,
+	"name": "Splendid design chicken fabric cotton kurti",
+	"actor": "kurti",
+	"price" : 14.99,
+	"desc" : "Designer chicken Cotton Kurti",
+	"flikid" : "K10",
+	"Size" : "XL",
+	"Order" : "Please call or whatsapp to order. We accept all forms of payments.",
+	"stock" : 1
+},{
+	"id" : 57,
+	"name": "Stylish chicken fabric cotton kurti",
+	"actor": "kurti",
+	"price" : 14.99,
+	"desc" : "Designer chicken Cotton Kurti",
+	"flikid" : "K12",
+	"Size" : "XL",
+	"Order" : "Please call or whatsapp to order. We accept all forms of payments.",
+	"stock" : 1
+},{
+	"id" : 56,
+	"name": "Heavy chicken fabric cotton kurti",
+	"actor": "kurti",
+	"price" : 14.99,
+	"desc" : "Designer chicken Cotton Kurti",
+	"flikid" : "K5",
+	"Size" : "XL",
+	"Order" : "Please call or whatsapp to order. We accept all forms of payments.",
+	"stock" : 1
+},{
 	"id" : 1,
 	"name": "Purple Fancy Cotton Kurti",
 	"actor": "kurti",
@@ -6,8 +196,8 @@
 	"desc" : "Designer Cotton Short Kurti",
 	"flikid" : "4MK",
 	"Size" : "XXL",
-	"Order" : "Please call or whatsapp to order. We accept only paypal payments at the moment.",
-	"stock" : 1
+	"Order" : "Please call or whatsapp to order. We accept all forms of payments.",
+	"stock" : 0
 },
 {
 	"id" : 2,
@@ -17,8 +207,8 @@
 	"desc" : "Designer Cotton Short Kurti",
 	"flikid" : "6MK",
 	"Size" : "XXL",
-	"Order" : "Please call or whatsapp to order. We accept only paypal payments at the moment.",
-	"stock" : 1
+	"Order" : "Please call or whatsapp to order. We accept all forms of payments.",
+	"stock" : 0
 },
 {
 	"id" : 3,
@@ -28,7 +218,7 @@
 	"desc" : "Designer Cotton Short Kurti",
 	"flikid" : "7MK",
 	"Size" : "XXL",
-	"Order" : "Please call or whatsapp to order. We accept only paypal payments at the moment.",
+	"Order" : "Please call or whatsapp to order. We accept all forms of payments.",
 	"stock" : 1
 },
 {
@@ -39,7 +229,7 @@
 	"desc" : "EMBROIDERY GEORGETTE KURTI WITH SANTOON INNER",
 	"flikid" : "52001_a",
 	"Size" : "XL",
-	"Order" : "Please call or whatsapp to order. We accept only paypal payments at the moment.",
+	"Order" : "Please call or whatsapp to order. We accept all forms of payments.",
 	"stock" : 1
 },
 {
@@ -50,7 +240,7 @@
 	"desc" : "EMBROIDERY GEORGETTE KURTI WITH SANTOON INNER",
 	"flikid" : "52002_c",
 	"Size" : "XL",
-	"Order" : "Please call or whatsapp to order. We accept only paypal payments at the moment.",
+	"Order" : "Please call or whatsapp to order. We accept all forms of payments.",
 	"stock" : 1
 },
 {
@@ -61,7 +251,7 @@
 	"desc" : "EMBROIDERY GEORGETTE KURTI WITH SANTOON INNER",
 	"flikid" : "52003_a",
 	"Size" : "XL",
-	"Order" : "Please call or whatsapp to order. We accept only paypal payments at the moment.",
+	"Order" : "Please call or whatsapp to order. We accept all forms of payments.",
 	"stock" : 1
 },
 {
@@ -72,7 +262,7 @@
 	"desc" : "COTTON CAMBRIC LAWN FABRIC KURTI",
 	"flikid" : "3MK",
 	"Size" : "XL",
-	"Order" : "Please call or whatsapp to order. We accept only paypal payments at the moment.",
+	"Order" : "Please call or whatsapp to order. We accept all forms of payments.",
 	"stock" : 1
 },
 {
@@ -83,8 +273,8 @@
 	"desc" : "Raw silk with inner",
 	"flikid" : "V1",
 	"Size" : "XL",
-	"Order" : "Please call or whatsapp to order. We accept only paypal payments at the moment.",
-	"stock" : 1
+	"Order" : "Please call or whatsapp to order. We accept all forms of payments.",
+	"stock" : 0
 },
 {
 	"id" : 9,
@@ -94,7 +284,7 @@
 	"desc" : "Raw silk with inner",
 	"flikid" : "V6",
 	"Size" : "XL",
-	"Order" : "Please call or whatsapp to order. We accept only paypal payments at the moment.",
+	"Order" : "Please call or whatsapp to order. We accept all forms of payments.",
 	"stock" : 1
 },
 {
@@ -105,7 +295,7 @@
 	"desc" : "Raw silk with inner",
 	"flikid" : "V5",
 	"Size" : "XL",
-	"Order" : "Please call or whatsapp to order. We accept only paypal payments at the moment.",
+	"Order" : "Please call or whatsapp to order. We accept all forms of payments.",
 	"stock" : 1
 },
 {
@@ -116,7 +306,7 @@
 	"desc" : "Raw silk with inner",
 	"flikid" : "V4",
 	"Size" : "XL",
-	"Order" : "Please call or whatsapp to order. We accept only paypal payments at the moment.",
+	"Order" : "Please call or whatsapp to order. We accept all forms of payments.",
 	"stock" : 1
 },
 {
@@ -127,19 +317,19 @@
 	"desc" : "Raw kora silk with inner",
 	"flikid" : "V3",
 	"Size" : "XL",
-	"Order" : "Please call or whatsapp to order. We accept only paypal payments at the moment.",
+	"Order" : "Please call or whatsapp to order. We accept all forms of payments.",
 	"stock" : 1
 },
 {
 	"id" : 13,
 	"name": "Gorgeous white and green design kora Silk kurti",
 	"actor": "kurti",
-	"price" : 17.99,
+	"price" : 18.99,
 	"desc" : "Raw kora silk with inner",
 	"flikid" : "V7",
 	"Size" : "XL",
-	"Order" : "Please call or whatsapp to order. We accept only paypal payments at the moment.",
-	"stock" : 1
+	"Order" : "Please call or whatsapp to order. We accept all forms of payments.",
+	"stock" : 0
 },
 {
 	"id" : 14,
@@ -149,7 +339,7 @@
 	"desc" : "Jackard Cotton 60*60 Cotton Kurti",
 	"flikid" : "a3",
 	"Size" : "XL",
-	"Order" : "Please call or whatsapp to order. We accept only paypal payments at the moment.",
+	"Order" : "Please call or whatsapp to order. We accept all forms of payments.",
 	"stock" : 1
 },
 {
@@ -160,8 +350,8 @@
 	"desc" : "Jackard Cotton 60*60 Cotton Kurti",
 	"flikid" : "a2",
 	"Size" : "XL",
-	"Order" : "Please call or whatsapp to order. We accept only paypal payments at the moment.",
-	"stock" : 1
+	"Order" : "Please call or whatsapp to order. We accept all forms of payments.",
+	"stock" : 0
 },
 {
 	"id" : 16,
@@ -171,7 +361,7 @@
 	"desc" : "Jackard Cotton 60*60 Cotton Kurti",
 	"flikid" : "a1",
 	"Size" : "XL",
-	"Order" : "Please call or whatsapp to order. We accept only paypal payments at the moment.",
+	"Order" : "Please call or whatsapp to order. We accept all forms of payments.",
 	"stock" : 1
 },
 {
@@ -182,7 +372,7 @@
 	"desc" : "Jackard Cotton 60*60 Cotton Kurti",
 	"flikid" : "a7",
 	"Size" : "XL",
-	"Order" : "Please call or whatsapp to order. We accept only paypal payments at the moment.",
+	"Order" : "Please call or whatsapp to order. We accept all forms of payments.",
 	"stock" : 1
 },
 {
@@ -193,7 +383,7 @@
 	"desc" : "Jackard Cotton 60*60 Cotton Kurti",
 	"flikid" : "a5",
 	"Size" : "XL",
-	"Order" : "Please call or whatsapp to order. We accept only paypal payments at the moment.",
+	"Order" : "Please call or whatsapp to order. We accept all forms of payments.",
 	"stock" : 1
 },
 {
@@ -204,7 +394,7 @@
 	"desc" : "Jackard Cotton 60*60 Cotton Kurti",
 	"flikid" : "a6",
 	"Size" : "XL",
-	"Order" : "Please call or whatsapp to order. We accept only paypal payments at the moment.",
+	"Order" : "Please call or whatsapp to order. We accept all forms of payments.",
 	"stock" : 1
 },
 {
@@ -215,7 +405,7 @@
 	"desc" : "Jackard Cotton 60*60 Cotton Kurti",
 	"flikid" : "a4",
 	"Size" : "XL",
-	"Order" : "Please call or whatsapp to order. We accept only paypal payments at the moment.",
+	"Order" : "Please call or whatsapp to order. We accept all forms of payments.",
 	"stock" : 1
 },
 {
@@ -226,7 +416,7 @@
 	"desc" : "Georgette cloth",
 	"flikid" : "b41",
 	"Size" : "L Length 47",
-	"Order" : "Please call or whatsapp to order. We accept only paypal payments at the moment.",
+	"Order" : "Please call or whatsapp to order. We accept all forms of payments.",
 	"stock" : 1
 },
 {
@@ -237,7 +427,7 @@
 	"desc" : "Georgette cloth",
 	"flikid" : "b35",
 	"Size" : "L Length 47",
-	"Order" : "Please call or whatsapp to order. We accept only paypal payments at the moment.",
+	"Order" : "Please call or whatsapp to order. We accept all forms of payments.",
 	"stock" : 1
 },
 {
@@ -248,7 +438,7 @@
 	"desc" : "Georgette cloth",
 	"flikid" : "b40",
 	"Size" : "L Length 47",
-	"Order" : "Please call or whatsapp to order. We accept only paypal payments at the moment.",
+	"Order" : "Please call or whatsapp to order. We accept all forms of payments.",
 	"stock" : 1
 },
 {
@@ -259,7 +449,7 @@
 	"desc" : "Georgette cloth",
 	"flikid" : "b38",
 	"Size" : "L Length 47",
-	"Order" : "Please call or whatsapp to order. We accept only paypal payments at the moment.",
+	"Order" : "Please call or whatsapp to order. We accept all forms of payments.",
 	"stock" : 1
 },
 {
@@ -270,7 +460,7 @@
 	"desc" : "Georgette cloth",
 	"flikid" : "b39",
 	"Size" : "L Length 47",
-	"Order" : "Please call or whatsapp to order. We accept only paypal payments at the moment.",
+	"Order" : "Please call or whatsapp to order. We accept all forms of payments.",
 	"stock" : 1
 },
 {
@@ -281,7 +471,7 @@
 	"desc" : "Georgette cloth",
 	"flikid" : "b36",
 	"Size" : "L Length 47",
-	"Order" : "Please call or whatsapp to order. We accept only paypal payments at the moment.",
+	"Order" : "Please call or whatsapp to order. We accept all forms of payments.",
 	"stock" : 1
 },
 {
@@ -292,7 +482,7 @@
 	"desc" : "Georgette cloth",
 	"flikid" : "b37",
 	"Size" : "L Length 47",
-	"Order" : "Please call or whatsapp to order. We accept only paypal payments at the moment.",
+	"Order" : "Please call or whatsapp to order. We accept all forms of payments.",
 	"stock" : 1
 },
 {
@@ -303,7 +493,7 @@
 	"desc" : "Pure georgette cloth",
 	"flikid" : "b30",
 	"Size" : "L Length 40",
-	"Order" : "Please call or whatsapp to order. We accept only paypal payments at the moment.",
+	"Order" : "Please call or whatsapp to order. We accept all forms of payments.",
 	"stock" : 1
 },
 {
@@ -314,7 +504,7 @@
 	"desc" : "Georgette cloth",
 	"flikid" : "b28",
 	"Size" : "L Length 40",
-	"Order" : "Please call or whatsapp to order. We accept only paypal payments at the moment.",
+	"Order" : "Please call or whatsapp to order. We accept all forms of payments.",
 	"stock" : 1
 },
 {
@@ -325,7 +515,7 @@
 	"desc" : "Georgette cloth and no side cut",
 	"flikid" : "b31",
 	"Size" : "L Length 40",
-	"Order" : "Please call or whatsapp to order. We accept only paypal payments at the moment.",
+	"Order" : "Please call or whatsapp to order. We accept all forms of payments.",
 	"stock" : 1
 },
 {
@@ -336,7 +526,7 @@
 	"desc" : "Cotton cloth",
 	"flikid" : "UFG01",
 	"Size" : "L",
-	"Order" : "Please call or whatsapp to order. We accept only paypal payments at the moment.",
+	"Order" : "Please call or whatsapp to order. We accept all forms of payments.",
 	"stock" : 1
 },
 {
@@ -347,7 +537,7 @@
 	"desc" : "Cotton cloth",
 	"flikid" : "UFG02",
 	"Size" : "L",
-	"Order" : "Please call or whatsapp to order. We accept only paypal payments at the moment.",
+	"Order" : "Please call or whatsapp to order. We accept all forms of payments.",
 	"stock" : 0
 },
 {
@@ -358,7 +548,7 @@
 	"desc" : "Rayon cloth",
 	"flikid" : "UFG03",
 	"Size" : "L",
-	"Order" : "Please call or whatsapp to order. We accept only paypal payments at the moment.",
+	"Order" : "Please call or whatsapp to order. We accept all forms of payments.",
 	"stock" : 1
 },
 {
@@ -369,7 +559,7 @@
 	"desc" : "Cotton cloth",
 	"flikid" : "UFG04",
 	"Size" : "L",
-	"Order" : "Please call or whatsapp to order. We accept only paypal payments at the moment.",
+	"Order" : "Please call or whatsapp to order. We accept all forms of payments.",
 	"stock" : 1
 },
 {
@@ -380,7 +570,7 @@
 	"desc" : "Georgette cloth",
 	"flikid" : "UFG05",
 	"Size" : "L",
-	"Order" : "Please call or whatsapp to order. We accept only paypal payments at the moment.",
+	"Order" : "Please call or whatsapp to order. We accept all forms of payments.",
 	"stock" : 1
 },
 {
@@ -391,8 +581,8 @@
 	"desc" : "Rayon cotton fabric",
 	"flikid" : "UFG06",
 	"Size" : "L",
-	"Order" : "Please call or whatsapp to order. We accept only paypal payments at the moment.",
-	"stock" : 1
+	"Order" : "Please call or whatsapp to order. We accept all forms of payments.",
+	"stock" : 0
 },
 {
 	"id" : 37,
@@ -402,8 +592,8 @@
 	"desc" : "Cotton fabric",
 	"flikid" : "UFG08",
 	"Size" : "L",
-	"Order" : "Please call or whatsapp to order. We accept only paypal payments at the moment.",
-	"stock" : 1
+	"Order" : "Please call or whatsapp to order. We accept all forms of payments.",
+	"stock" : 0
 },
 {
 	"id" : 38,
@@ -413,7 +603,7 @@
 	"desc" : "Cotton fabric",
 	"flikid" : "UFG09",
 	"Size" : "L",
-	"Order" : "Please call or whatsapp to order. We accept only paypal payments at the moment.",
+	"Order" : "Please call or whatsapp to order. We accept all forms of payments.",
 	"stock" : 1
 },
 {
@@ -424,8 +614,8 @@
 	"desc" : "Cotton fabric",
 	"flikid" : "UFG10",
 	"Size" : "L Length 40",
-	"Order" : "Please call or whatsapp to order. We accept only paypal payments at the moment.",
-	"stock" : 1
+	"Order" : "Please call or whatsapp to order. We accept all forms of payments.",
+	"stock" : 0
 },
 {
 	"id" : 41,
@@ -435,7 +625,7 @@
 	"desc" : "Cotton fabric",
 	"flikid" : "UFG11",
 	"Size" : "L",
-	"Order" : "Please call or whatsapp to order. We accept only paypal payments at the moment.",
+	"Order" : "Please call or whatsapp to order. We accept all forms of payments.",
 	"stock" : 1
 },
 {
@@ -446,7 +636,7 @@
 	"desc" : "Cotton fabric",
 	"flikid" : "UFG12",
 	"Size" : "L",
-	"Order" : "Please call or whatsapp to order. We accept only paypal payments at the moment.",
+	"Order" : "Please call or whatsapp to order. We accept all forms of payments.",
 	"stock" : 1
 },
 {
@@ -457,8 +647,8 @@
 	"desc" : "Cotton cloth",
 	"flikid" : "UFG13",
 	"Size" : "L",
-	"Order" : "Please call or whatsapp to order. We accept only paypal payments at the moment.",
-	"stock" : 1
+	"Order" : "Please call or whatsapp to order. We accept all forms of payments.",
+	"stock" : 0
 },
 {
 	"id" : 44,
@@ -468,7 +658,7 @@
 	"desc" : "Cotton cloth",
 	"flikid" : "UFG14",
 	"Size" : "L",
-	"Order" : "Please call or whatsapp to order. We accept only paypal payments at the moment.",
+	"Order" : "Please call or whatsapp to order. We accept all forms of payments.",
 	"stock" : 1
 },
 {
@@ -479,7 +669,7 @@
 	"desc" : "Cotton cloth",
 	"flikid" : "UFG15",
 	"Size" : "L",
-	"Order" : "Please call or whatsapp to order. We accept only paypal payments at the moment.",
+	"Order" : "Please call or whatsapp to order. We accept all forms of payments.",
 	"stock" : 1
 },
 {
@@ -490,7 +680,7 @@
 	"desc" : "Cotton cloth",
 	"flikid" : "UFG16",
 	"Size" : "L",
-	"Order" : "Please call or whatsapp to order. We accept only paypal payments at the moment.",
+	"Order" : "Please call or whatsapp to order. We accept all forms of payments.",
 	"stock" : 1
 },
 {
@@ -501,7 +691,7 @@
 	"desc" : "Cotton cloth",
 	"flikid" : "UFG17",
 	"Size" : "L",
-	"Order" : "Please call or whatsapp to order. We accept only paypal payments at the moment.",
+	"Order" : "Please call or whatsapp to order. We accept all forms of payments.",
 	"stock" : 1
 },
 {
@@ -512,8 +702,8 @@
 	"desc" : "Cotton cloth",
 	"flikid" : "UFG18",
 	"Size" : "L",
-	"Order" : "Please call or whatsapp to order. We accept only paypal payments at the moment.",
-	"stock" : 1
+	"Order" : "Please call or whatsapp to order. We accept all forms of payments.",
+	"stock" : 0
 },
 {
 	"id" : 49,
@@ -523,7 +713,7 @@
 	"desc" : "Cotton cloth",
 	"flikid" : "UFG19",
 	"Size" : "L",
-	"Order" : "Please call or whatsapp to order. We accept only paypal payments at the moment.",
+	"Order" : "Please call or whatsapp to order. We accept all forms of payments.",
 	"stock" : 1
 },
 {
@@ -534,7 +724,7 @@
 	"desc" : "Cotton cloth",
 	"flikid" : "UFG20",
 	"Size" : "L",
-	"Order" : "Please call or whatsapp to order. We accept only paypal payments at the moment.",
+	"Order" : "Please call or whatsapp to order. We accept all forms of payments.",
 	"stock" : 1
 },
 {
@@ -545,8 +735,8 @@
 	"desc" : "Cotton cloth",
 	"flikid" : "UFG21",
 	"Size" : "L",
-	"Order" : "Please call or whatsapp to order. We accept only paypal payments at the moment.",
-	"stock" : 1
+	"Order" : "Please call or whatsapp to order. We accept all forms of payments.",
+	"stock" : 0
 },
 {
 	"id" : 52,
@@ -556,7 +746,7 @@
 	"desc" : "Cotton cloth",
 	"flikid" : "UFG22",
 	"Size" : "L",
-	"Order" : "Please call or whatsapp to order. We accept only paypal payments at the moment.",
+	"Order" : "Please call or whatsapp to order. We accept all forms of payments.",
 	"stock" : 1
 },
 {
@@ -567,7 +757,7 @@
 	"desc" : "Cotton cloth",
 	"flikid" : "UFG23",
 	"Size" : "L",
-	"Order" : "Please call or whatsapp to order. We accept only paypal payments at the moment.",
+	"Order" : "Please call or whatsapp to order. We accept all forms of payments.",
 	"stock" : 1
 },
 {
@@ -578,8 +768,8 @@
 	"desc" : "Cotton cloth",
 	"flikid" : "UFG24",
 	"Size" : "L",
-	"Order" : "Please call or whatsapp to order. We accept only paypal payments at the moment.",
-	"stock" : 1
+	"Order" : "Please call or whatsapp to order. We accept all forms of payments.",
+	"stock" : 0
 },
 {
 	"id" : 55,
@@ -589,6 +779,6 @@
 	"desc" : "Cotton cloth",
 	"flikid" : "UFG25",
 	"Size" : "L",
-	"Order" : "Please call or whatsapp to order. We accept only paypal payments at the moment.",
+	"Order" : "Please call or whatsapp to order. We accept all forms of payments.",
 	"stock" : 1
 }]
