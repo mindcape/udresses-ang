@@ -1,0 +1,29 @@
+<div ng-controller="kurtisController">
+<ul class="row breadcrumb">
+    <li><a href="#">Home</a></li>
+    <li class="active">{{productType}}</li>
+</ul>
+
+<hr/>
+<h3>{{typeHeaderText}}</h3>
+
+<div class="row text-right">
+  <uib-pagination total-items="totalItems" ng-model="currentPage" ng-change="pageChanged()"
+  items-per-page="maxSize" boundary-links="true" force-ellipses="true">
+  </uib-pagination>
+</div>
+
+  <div class="row text-right">
+    <div ng-repeat="p in products.slice(((currentPage-1)*maxSize), ((currentPage)*maxSize))">
+      <span actor-tile actor="p" pageNo="{{currentPage}}"></span>
+    </div>
+  </div>
+
+
+  <div class="row text-right">
+    <uib-pagination total-items="totalItems" ng-model="currentPage" ng-change="pageChanged()"
+    items-per-page="maxSize" boundary-links="true" force-ellipses="true">
+    </uib-pagination>
+  </div>
+
+</div>

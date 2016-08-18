@@ -1,0 +1,23 @@
+{
+  "name": "resources",
+  "version": "1.0.0",
+  "description": "External dependencies",
+  "main": "index.html",
+  "scripts": {
+    "start": "node server.js",
+    "info": "echo 'npm as a build tool'",
+    "lint": "echo '=> linting' && jshint js/*.js",
+    "minify:css": "echo '=> minify:css' && cleancss css/app.css -o dist/public/css/app.min.css",
+    "minify:js": "echo '=> minify:js' && uglifyjs js/app.js -o dist/public/js/app.min.js"
+  },
+  "author": "Mahendra",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-css": "^3.4.19",
+    "connect": "^3.1.x",
+    "jshint": "^2.9.2",
+    "minimatch": "^3.0.3",
+    "serve-static": "^1.4.x",
+    "uglify-js": "^2.7.3"
+  }
+}
