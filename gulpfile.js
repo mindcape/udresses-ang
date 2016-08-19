@@ -1,12 +1,13 @@
 var gulp = require('gulp');
+var gVersionAppend = require('gulp-version-append');
 
 var src = '';
 var dist = 'dist/public/';
 
 
-gulp.task('default', ['copy-lib','build-copy']);
+gulp.task('default', ['clean-dist','copy-lib','build-copy']);
 
-gulp.task('build', ['copy-lib','build-copy']);
+gulp.task('build', ['clean-dist','copy-lib','build-copy']);
 
 
 gulp.task('build-copy', function () {
@@ -36,11 +37,27 @@ gulp.task('copy-lib', function() {
     gulp.src(['node_modules/angular/angular.min.js'])
         .pipe(gulp.dest(dist + 'lib/angular'));
 
+    //angular core
+    gulp.src(['node_modules/angular/angular.js'])
+            .pipe(gulp.dest(dist + 'lib/angular'));
+
     //angular animate
     gulp.src('node_modules/angular-animate/angular-animate.min.js')
         .pipe(gulp.dest(dist + '/lib/angular-animate/'));
 
+    //angular animate
+    gulp.src('node_modules/angular-animate/angular-animate.js')
+            .pipe(gulp.dest(dist + '/lib/angular-animate/'));
+
     //flexslider
+    gulp.src('node_modules/flexslider/*')
+            .pipe(gulp.dest(dist + '/lib/flexslider/'));
+
+    //flexslider
+    gulp.src('node_modules/flexslider/fonts/*')
+                    .pipe(gulp.dest(dist + '/lib/flexslider/fonts/'));
+
+    //angular-flexslider
     gulp.src('node_modules/angular-flexslider/angular-flexslider.js')
         .pipe(gulp.dest(dist + '/lib/angular-flexslider/'));
 
@@ -48,9 +65,13 @@ gulp.task('copy-lib', function() {
     gulp.src('node_modules/angular-resource/angular-resource.min.js')
         .pipe(gulp.dest(dist + '/lib/angular-resource/'));
 
+    //angular resource
+    gulp.src('node_modules/angular-resource/angular-resource.js')
+            .pipe(gulp.dest(dist + '/lib/angular-resource/'));
+
     //angular ui bootstrap
     gulp.src('node_modules/angular-ui-bootstrap/dist/**')
-        .pipe(gulp.dest(dist + '/lib/angular-ui-bootstrap/dist/'));
+        .pipe(gulp.dest(dist + '/lib/angular-ui-bootstrap/'));
 
     // angular ui router
     gulp.src('node_modules/angular-ui-router/release/**')
@@ -72,4 +93,12 @@ gulp.task('copy-lib', function() {
     gulp.src('node_modules/ui-navbar/**')
         .pipe(gulp.dest(dist + '/lib/ui-navbar/'));
 
+});
+
+gulp.task('clean-dist', function() {
+    del(dist, dist);
+});
+
+gulp.task('clean-lib', function () {
+    del([dist + '/lib/**/*']);
 });
