@@ -10,6 +10,7 @@
     "minify:css": "echo '=> minify:css' && cleancss css/app.css -o dist/public/css/app.min.css",
     "minify:js": "echo '=> minify:js' && uglifyjs js/app.js -o dist/public/js/app.min.js",
     "build:dev": "gulp",
+    "build:clean": "gulp clean-dist && gulp clean-lib",
     "build:prod": "gulp & gulp copy-lib && gulp build --production && gulp updateBuildVersion"
   },
   "author": "Mahendra",
@@ -17,6 +18,7 @@
   "devDependencies": {
     "clean-css": "^3.4.19",
     "connect": "^3.1.x",
+    "del": "^2.2.2",
     "gulp": "^3.9.1",
     "gulp-sass": "^2.3.2",
     "jshint": "^2.9.2",

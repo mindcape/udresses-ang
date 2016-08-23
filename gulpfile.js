@@ -1,7 +1,7 @@
 var gulp = require('gulp');
-var gVersionAppend = require('gulp-version-append');
+var del = require('del');
 
-var src = '';
+var src = 'app/';
 var dist = 'dist/public/';
 
 
