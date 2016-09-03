@@ -42,10 +42,6 @@ gulp.task('copy-lib', function() {
             .pipe(gulp.dest(dist + 'lib/angular'));
 
     //angular animate
-    gulp.src('node_modules/angular-animate/angular-animate.min.js')
-        .pipe(gulp.dest(dist + '/lib/angular-animate/'));
-
-    //angular animate
     gulp.src('node_modules/angular-animate/angular-animate.js')
             .pipe(gulp.dest(dist + '/lib/angular-animate/'));
 
