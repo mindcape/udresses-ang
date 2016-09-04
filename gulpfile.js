@@ -1,5 +1,8 @@
 var gulp = require('gulp');
 var del = require('del');
+var bump = require('gulp-bump');
+var args = require('yargs').argv;
+var replace = require('gulp-replace');
 
 var src = 'app/';
 var dist = 'dist/public/';
@@ -8,7 +11,6 @@ var dist = 'dist/public/';
 gulp.task('default', ['clean-dist','copy-lib','build-copy']);
 
 gulp.task('build', ['clean-dist','copy-lib','build-copy']);
-
 
 gulp.task('build-copy', function () {
     gulp.src([src + 'js/*.js'])
@@ -95,6 +97,70 @@ gulp.task('clean-dist', function() {
     del(dist, dist);
 });
 
-gulp.task('clean-lib', function () {
-    del([dist + '/lib/**/*']);
+gulp.task('bump', function () {
+    /// <summary>
+    /// It bumps revisions
+    /// Usage:
+    /// 1. gulp bump : bumps the package.json and bower.json to the next minor revision.
+    ///   i.e. from 0.1.1 to 0.1.2
+    /// 2. gulp bump --version 1.1.1 : bumps/sets the package.json and bower.json to the
+    ///    specified revision.
+    /// 3. gulp bump --type major       : bumps 1.0.0
+    ///    gulp bump --type minor       : bumps 0.1.0
+    ///    gulp bump --type patch       : bumps 0.0.2
+    ///    gulp bump --type prerelease  : bumps 0.0.1-2
+    /// </summary>
+
+    var type = args.type;
+    var version = args.version;
+    var options = {};
+    if (version) {
+        options.version = version;
+        ///msg += ' to ' + version;
+    } else {
+        options.type = type;
+        ///msg += ' for a ' + type;
+    }
+
+
+    return gulp
+        .src(['package.json'])
+        .pipe(bump(options))
+        .pipe(gulp.dest('./'));
+});
+
+
+gulp.task('increment-version', function(){
+    //docString is the file from which you will get your constant string
+    var docString = fs.readFileSync('./someFolder/constants.js', 'utf8');
+
+    //The code below gets your semantic v# from docString
+    var versionNumPattern=/'someTextPreceedingVNumber', '(.*)'/; //This is just a regEx with a capture group for version number
+    var vNumRexEx = new RegExp(versionNumPattern);
+    var oldVersionNumber = (vNumRexEx.exec(docString))[1]; //This gets the captured group
+
+    //...Split the version number string into elements so you can bump the one you want
+    var versionParts = oldVersionNumber.split('.');
+    var vArray = {
+        vMajor : versionParts[0],
+        vMinor : versionParts[1],
+        vPatch : versionParts[2]
+    };
+
+    vArray.vPatch = parseFloat(vArray.vPatch) + 1;
+    var periodString = ".";
+
+    var newVersionNumber = vArray.vMajor + periodString +
+                           vArray.vMinor+ periodString +
+                           vArray.vPatch;
+
+    gulp.src(['./someFolder/constants.js'])
+        .pipe(replace(/'someTextPreceedingVNumber', '(.*)'/g, newVersionNumber))
+        .pipe(gulp.dest('./someFolder/'));
+});
+
+gulp.task('replaceVersion', function(){
+  gulp.src(['index.html'])
+    .pipe(replace(/VER@@@@/g, '$1foo'))
+    .pipe(gulp.dest('build/file.txt'));
 });

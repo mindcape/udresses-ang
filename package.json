@@ -1,6 +1,6 @@
 {
   "name": "resources",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "External dependencies",
   "main": "index.html",
   "scripts": {
@@ -10,8 +10,8 @@
     "minify:css": "echo '=> minify:css' && cleancss css/app.css -o dist/public/css/app.min.css",
     "minify:js": "echo '=> minify:js' && uglifyjs js/app.js -o dist/public/js/app.min.js",
     "build:dev": "gulp",
-    "build:clean": "gulp clean-dist && gulp clean-lib",
-    "build:prod": "gulp & gulp copy-lib && gulp build --production && gulp updateBuildVersion"
+    "build:clean": "gulp clean-dist",
+    "build:prod": "gulp & gulp bump"
   },
   "author": "Mahendra",
   "license": "ISC",
@@ -20,11 +20,14 @@
     "connect": "^3.1.x",
     "del": "^2.2.2",
     "gulp": "^3.9.1",
+    "gulp-bump": "^2.4.0",
+    "gulp-replace": "^0.5.4",
     "gulp-sass": "^2.3.2",
     "jshint": "^2.9.2",
     "minimatch": "^3.0.3",
     "serve-static": "^1.4.x",
-    "uglify-js": "^2.7.3"
+    "uglify-js": "^2.7.3",
+    "yargs": "^5.0.0"
   },
   "dependencies": {
     "angular": "^1.5.8",
