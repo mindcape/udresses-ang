@@ -3,20 +3,26 @@ var del = require('del');
 var bump = require('gulp-bump');
 var args = require('yargs').argv;
 var replace = require('gulp-replace');
+var fs = require('fs');
+var gutil = require('gulp-util');
+var CacheBuster = require('gulp-cachebust');
 
 var src = 'app/';
 var dist = 'dist/public/';
+var cachebust = new CacheBuster();
 
 
-gulp.task('default', ['clean-dist','copy-lib','build-copy']);
+gulp.task('default', ['clean','copy-lib','build-copy']);
 
-gulp.task('build', ['clean-dist','copy-lib','build-copy']);
+gulp.task('build', ['clean','copy-lib','build-copy']);
 
 gulp.task('build-copy', function () {
     gulp.src([src + 'js/*.js'])
+        .pipe(cachebust.resources())
         .pipe(gulp.dest(dist +'/js'));
 
     gulp.src([src + 'css/*.css'])
+        .pipe(cachebust.resources())
         .pipe(gulp.dest(dist + '/css'));
 
     gulp.src([src + 'img/*'])
@@ -28,7 +34,8 @@ gulp.task('build-copy', function () {
     gulp.src([src + 'data/*.json'])
             .pipe(gulp.dest(dist + '/data'));
 
-    return gulp.src([src + 'index.html'])
+    gulp.src([src + 'index.html'])
+        .pipe(cachebust.references())
         .pipe(gulp.dest(dist));
 });
 
@@ -93,7 +100,7 @@ gulp.task('copy-lib', function() {
 
 });
 
-gulp.task('clean-dist', function() {
+gulp.task('clean', function() {
     del(dist, dist);
 });
 
@@ -126,41 +133,5 @@ gulp.task('bump', function () {
     return gulp
         .src(['package.json'])
         .pipe(bump(options))
-        .pipe(gulp.dest('./'));
-});
-
-
-gulp.task('increment-version', function(){
-    //docString is the file from which you will get your constant string
-    var docString = fs.readFileSync('./someFolder/constants.js', 'utf8');
-
-    //The code below gets your semantic v# from docString
-    var versionNumPattern=/'someTextPreceedingVNumber', '(.*)'/; //This is just a regEx with a capture group for version number
-    var vNumRexEx = new RegExp(versionNumPattern);
-    var oldVersionNumber = (vNumRexEx.exec(docString))[1]; //This gets the captured group
-
-    //...Split the version number string into elements so you can bump the one you want
-    var versionParts = oldVersionNumber.split('.');
-    var vArray = {
-        vMajor : versionParts[0],
-        vMinor : versionParts[1],
-        vPatch : versionParts[2]
-    };
-
-    vArray.vPatch = parseFloat(vArray.vPatch) + 1;
-    var periodString = ".";
-
-    var newVersionNumber = vArray.vMajor + periodString +
-                           vArray.vMinor+ periodString +
-                           vArray.vPatch;
-
-    gulp.src(['./someFolder/constants.js'])
-        .pipe(replace(/'someTextPreceedingVNumber', '(.*)'/g, newVersionNumber))
-        .pipe(gulp.dest('./someFolder/'));
-});
-
-gulp.task('replaceVersion', function(){
-  gulp.src(['index.html'])
-    .pipe(replace(/VER@@@@/g, '$1foo'))
-    .pipe(gulp.dest('build/file.txt'));
+        .pipe(gulp.dest(''));
 });

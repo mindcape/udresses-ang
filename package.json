@@ -1,7 +1,7 @@
 {
-  "name": "resources",
-  "version": "0.1.0",
-  "description": "External dependencies",
+  "name": "UdayaFashions",
+  "version": "0.1.11",
+  "description": "Udaya Fashions",
   "main": "index.html",
   "scripts": {
     "start": "node server.js",
@@ -10,7 +10,7 @@
     "minify:css": "echo '=> minify:css' && cleancss css/app.css -o dist/public/css/app.min.css",
     "minify:js": "echo '=> minify:js' && uglifyjs js/app.js -o dist/public/js/app.min.js",
     "build:dev": "gulp",
-    "build:clean": "gulp clean-dist",
+    "build:clean": "gulp clean",
     "build:prod": "gulp & gulp bump"
   },
   "author": "Mahendra",
@@ -21,8 +21,10 @@
     "del": "^2.2.2",
     "gulp": "^3.9.1",
     "gulp-bump": "^2.4.0",
+    "gulp-cachebust": "0.0.6",
     "gulp-replace": "^0.5.4",
     "gulp-sass": "^2.3.2",
+    "gulp-util": "^3.0.7",
     "jshint": "^2.9.2",
     "minimatch": "^3.0.3",
     "serve-static": "^1.4.x",
